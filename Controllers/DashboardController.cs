@@ -10,7 +10,7 @@ namespace apiServices.Controllers
         {
             _dbcontext = _context;
         }
-        [HttpGet("countUserWTicket/{idAgencia}")]
+        [HttpGet("api/countUserWTicket/{idAgencia}")]
         public IActionResult countUserByTikets(int idAgencia)
         {
             try
@@ -39,7 +39,7 @@ namespace apiServices.Controllers
             }
         }
 
-        [HttpGet("getByDate/{ciUsuario}/{fecha1}/{fecha2}")]
+        [HttpGet("api/getByDate/{ciUsuario}/{fecha1}/{fecha2}")]
         public IActionResult reportUser(int ciUsuario, DateTime fecha1,DateTime fecha2)
         {
             try
@@ -90,7 +90,7 @@ namespace apiServices.Controllers
                 return StatusCode(StatusCodes.Status422UnprocessableEntity, ex);
             }
         }
-        [HttpGet("getUserbyCI/{ciUsuario}")]
+        [HttpGet("api/getUserbyCI/{ciUsuario}")]
         public IActionResult getUserbyCI(int ciUsuario)
         {
             try
@@ -116,7 +116,7 @@ namespace apiServices.Controllers
                 return StatusCode(StatusCodes.Status422UnprocessableEntity, ex);
             }
         }
-        [HttpGet("getDataByName/{nomUsuario}/{idAgencia}")]
+        [HttpGet("api/getDataByName/{nomUsuario}/{idAgencia}")]
         public IActionResult getDataByName(string nomUsuario, int idAgencia)
         {
             try

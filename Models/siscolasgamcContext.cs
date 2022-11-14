@@ -7,13 +7,14 @@ namespace apiServices.Models
 {
     public partial class siscolasgamcContext : DbContext
     {
+        //------------------------------Data--------------------------------------
         public siscolasgamcContext()
         {
         }
 
-        public siscolasgamcContext(DbContextOptions<siscolasgamcContext> options)
-            : base(options)
+        public siscolasgamcContext(DbContextOptions<siscolasgamcContext> options): base(options)
         {
+
         }
 
         public virtual DbSet<Agencium> Agencia { get; set; } = null!;

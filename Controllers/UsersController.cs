@@ -200,7 +200,7 @@ namespace apiServices.Controllers
             }
             
             ).ToList();
-            if (usuarios == null)
+            if (usuarios.Count == 0)
             {
                 return NotFound();
             }

@@ -2,6 +2,9 @@ using Microsoft.EntityFrameworkCore;
 using apiServices.Models;
 using System.Text.Json.Serialization;
 using apiServices.Converters;
+using AutoMapper;
+using apiServices.MappingProfiles;
+using apiServices.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,6 +24,13 @@ builder.Services.AddControllers().AddJsonOptions(opt =>
     opt.JsonSerializerOptions.Converters.Add(new DateTimeJsonConverter());
 });
 
+//----------------------------------Paginacion----------------------------------
+var automapper = new MapperConfiguration(item => item.AddProfile(new RequestToDomainProfile()));
+IMapper mapper = automapper.CreateMapper();
+builder.Services.AddSingleton(mapper);
+builder.Services.AddScoped<IAgenciaService, AgenciaService>();
+builder.Services.AddScoped<IAgenciaPageService, AgenciaPageService>();
+//--------------------------------------------------------------------
 var misReglasCors = "ReglasCors";
 builder.Services.AddCors(opt =>
 {
@@ -43,5 +53,4 @@ app.UseCors(misReglasCors);
 app.UseAuthorization();
 app.UseWebSockets();
 app.MapControllers();
-
 app.Run();

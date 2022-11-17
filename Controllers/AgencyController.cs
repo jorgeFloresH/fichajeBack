@@ -1,12 +1,18 @@
 ﻿using apiServices.Data;
+using apiServices.Data.Queries;
 using apiServices.Models;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Hosting;
 using System.Linq;
 using System.Text.Json;
 using System.Threading.Tasks;
+using AutoMapper;
+using apiServices.Domain;
+using apiServices.Data.Filters;
+using apiServices.Services;
 
 namespace apiServices.Controllers
 {
@@ -16,11 +22,16 @@ namespace apiServices.Controllers
     public class AgencyController : Controller
     {
         public readonly siscolasgamcContext _dbcontext;
-        private IOrderedQueryable<Agencium> agency;
+        private readonly IAgenciaService _agenciaService;
+        private readonly IAgenciaPageService _agenciaPageService;
+        private IMapper _mapper;
 
-        public AgencyController(siscolasgamcContext _context)
+        public AgencyController(siscolasgamcContext _context, IAgenciaService dtService, IMapper mapper, IAgenciaPageService servicio)
         {
             _dbcontext = _context;
+            _agenciaService = dtService;
+            _mapper = mapper;
+            _agenciaPageService = servicio;
         }
         [HttpGet]
         public IActionResult allAgency()
@@ -47,69 +58,29 @@ namespace apiServices.Controllers
                 return StatusCode(StatusCodes.Status422UnprocessableEntity, ex);
             }
         }
-
         //------------------------------------------------------------------------------------------------------------------
-        [HttpGet("prueba2/")]
-        public async Task<ActionResult> PruebaPaginacion ([FromQuery] AgenciaPagination @params)
+        [HttpGet("paginacion/")]
+        public async Task<IActionResult> GetAll([FromQuery] PaginationQuery paginationQuery, [FromQuery] AgenciaQuery query)
         {
-            if (@params.sort != "null")
+            var pagination = _mapper.Map<PaginationFilter>(paginationQuery);
+            var filter = new AgenciaFilter();
+            filter.nombre = query.nombre;
+            filter.sort = query.sort;
+            var dtResponse = await _agenciaService.GetAgenciaAsync(filter, pagination);
+            var paginas = await _agenciaPageService.GetAgenciaPageAsync(filter, pagination);
+            return Ok(new { data = dtResponse, paginas });
+            /*if (filter.nombre != null)
             {
-                var s = @params.sort;
-                if (s.Contains("-"))
-                {
-                    var filtro = s.Substring(1);
-                    switch (filtro)
-                    {
-                        case "idAgencia":
-                            agency = _dbcontext.Agencia.OrderByDescending(a => a.IdAgencia);
-                            break;
-                        case "nomAgencia":
-                            agency = _dbcontext.Agencia.OrderByDescending(a => a.NomAgencia);
-                            break;
-                        case "estado":
-                            agency = _dbcontext.Agencia.OrderByDescending(a => a.Estado);
-                            break;
-                    }
-                }
-                else
-                {
-                    switch (s)
-                    {
-                        case "idAgencia":
-                            agency = _dbcontext.Agencia.OrderBy(a => a.IdAgencia);
-                            break;
-                        case "nomAgencia":
-                            agency = _dbcontext.Agencia.OrderBy(a => a.NomAgencia);
-                            break;
-                        case "estado":
-                            agency = _dbcontext.Agencia.OrderBy(a => a.Estado);
-                            break;
-                    }
-                }
+                var paginas = new PaginationMetaData(_dbcontext.Agencia.Where(a => a.NomAgencia == filter.nombre).Count(), pagination.PageNumber, pagination.PageSize);
+                return Ok(new { data = dtResponse, paginas.CurrentPage, paginas.TotalCount, paginas.TotalPages, paginas.HasPrevious, paginas.HasNext });
             }
             else
             {
-                agency = _dbcontext.Agencia.OrderBy(a => a.IdAgencia);
-            }
-            var paginationMetadata = new PaginationMetaDataAgencia(agency.Count(), @params.PageNumber, @params.PageSize);
-            Response.Headers.Add("X-Pagination", JsonSerializer.Serialize(paginationMetadata));
-            var items = await agency.Skip((@params.PageNumber - 1) * @params.PageSize).Take(@params.PageSize).ToListAsync();
-            var res = items.Select(t =>
-                new
-                {
-                    idAgencia = t.IdAgencia,
-                    nomAgencia = t.NomAgencia,
-                    estado = t.Estado,
-                    ascdesc = t.Acdes,
-                    mapa = t.Mapa,
-                    multimedia = t.Multimedia,
-                    consulta = t.Consulta
-                }
-            );
-            return Ok(new {data = res, paginationMetadata.CurrentPage, paginationMetadata.TotalCount, paginationMetadata.TotalPages, paginationMetadata.HasPrevious, paginationMetadata.HasNext});
+                var paginas = new PaginationMetaData(_dbcontext.Agencia.Count(), pagination.PageNumber, pagination.PageSize);
+                return Ok(new { data = dtResponse, paginas.CurrentPage, paginas.TotalCount, paginas.TotalPages, paginas.HasPrevious, paginas.HasNext });
+            }*/
         }
-        //------------------------------------------------------------------------------------------------------------------
-
+        //---------------------------------------------------------------------------------------------------
 
         [HttpGet("{id:long}")]
         public IActionResult idAgency(long id)

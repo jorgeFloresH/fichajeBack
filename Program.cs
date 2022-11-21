@@ -33,6 +33,9 @@ builder.Services.AddScoped<IAgenciaPageService, AgenciaPageService>();
 
 builder.Services.AddScoped<IUsuarioService, UsuarioService>();
 builder.Services.AddScoped<IUsuarioPageService, UsuarioPageService>();
+
+builder.Services.AddScoped<IRequisitoService, RequisitosService>();
+builder.Services.AddScoped<IRequisitoPageService, RequisitoPageService>();
 //--------------------------------------------------------------------
 var misReglasCors = "ReglasCors";
 builder.Services.AddCors(opt =>

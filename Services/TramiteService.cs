@@ -5,7 +5,7 @@ using apiServices.Models;
 
 namespace apiServices.Services
 {
-    public class TramiteService
+    public class TramiteService : ITramiteService
     {
         siscolasgamcContext _context;
 
@@ -66,19 +66,19 @@ namespace apiServices.Services
                     switch (filter.sort)
                     {
                         case "idTramite":
-                            resp = resp.OrderByDescending(o => o.idTramite);
+                            resp = resp.OrderBy(o => o.idTramite);
                             break;
                         case "idAgencia":
-                            resp = resp.OrderByDescending(o => o.idAgencia);
+                            resp = resp.OrderBy(o => o.idAgencia);
                             break;
                         case "estado":
-                            resp = resp.OrderByDescending(o => o.estado);
+                            resp = resp.OrderBy(o => o.estado);
                             break;
                         case "nomTramite":
-                            resp = resp.OrderByDescending(o => o.nomTramite);
+                            resp = resp.OrderBy(o => o.nomTramite);
                             break;
                         case "nomAgencia":
-                            resp = resp.OrderByDescending(o => o.nomAgencia);
+                            resp = resp.OrderBy(o => o.nomAgencia);
                             break;
                     }
                 }

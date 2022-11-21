@@ -1,4 +1,9 @@
+using apiServices.Data.Filters;
+using apiServices.Data.Queries;
+using apiServices.Domain;
 using apiServices.Models;
+using apiServices.Services;
+using AutoMapper;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -11,11 +16,18 @@ namespace apiServices.Controllers
     public class TramiteController : Controller
     {
         public readonly siscolasgamcContext _dbcontext;
+        private readonly ITramiteService _tramiteService;
+        private readonly ITramitePageService _tramitePageService;
+        private readonly IMapper _mapper;
 
-        public TramiteController(siscolasgamcContext _context)
+        public TramiteController(siscolasgamcContext _context, ITramiteService dtService, IMapper mapper, ITramitePageService servicio)
         {
             _dbcontext = _context;
+            _tramiteService = dtService;
+            _mapper = mapper;
+            _tramitePageService = servicio;
         }
+
         [HttpGet]
         public IActionResult tramite()
         {
@@ -39,6 +51,22 @@ namespace apiServices.Controllers
                 return StatusCode(StatusCodes.Status422UnprocessableEntity, ex);
             }
         }
+
+        //-----------------------------------------------------------------------------------------------
+        [HttpGet("paginacion/")]
+        public async Task<IActionResult> GetAll([FromQuery] PaginationQuery paginationQuery, [FromQuery] TramiteQuery query)
+        {
+            var pagination = _mapper.Map<PaginationFilter>(paginationQuery);
+            var filter = new TramiteFilter();
+            filter.nombreTramite = query.nombreTramite;
+            filter.nombreAgencia = query.nombreAgencia;
+            filter.sort = query.sort;
+            var dtResponse = await _tramiteService.GetTramiteAsync(filter, pagination);
+            var paginas = await _tramitePageService.GetTramitePageAsync(filter, pagination);
+            return Ok(new { data = dtResponse, paginas });
+        }
+        //-----------------------------------------------------------------------------------------------
+
         //Filter for agency
         [HttpGet("FilterAgencia/{agencia}")]
         public IActionResult GetFiltertramite(int agencia)

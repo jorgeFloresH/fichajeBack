@@ -30,6 +30,15 @@ IMapper mapper = automapper.CreateMapper();
 builder.Services.AddSingleton(mapper);
 builder.Services.AddScoped<IAgenciaService, AgenciaService>();
 builder.Services.AddScoped<IAgenciaPageService, AgenciaPageService>();
+
+builder.Services.AddScoped<IUsuarioService, UsuarioService>();
+builder.Services.AddScoped<IUsuarioPageService, UsuarioPageService>();
+
+builder.Services.AddScoped<IRequisitoService, RequisitosService>();
+builder.Services.AddScoped<IRequisitoPageService, RequisitoPageService>();
+
+builder.Services.AddScoped<ITramiteService, TramiteService>();
+builder.Services.AddScoped<ITramitePageService, TramitePageService>();
 //--------------------------------------------------------------------
 var misReglasCors = "ReglasCors";
 builder.Services.AddCors(opt =>

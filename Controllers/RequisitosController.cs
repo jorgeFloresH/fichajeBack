@@ -1,4 +1,9 @@
-﻿using apiServices.Models;
+﻿using apiServices.Data.Filters;
+using apiServices.Data.Queries;
+using apiServices.Domain;
+using apiServices.Models;
+using apiServices.Services;
+using AutoMapper;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,9 +15,16 @@ namespace apiServices.Controllers
     public class RequisitosController : ControllerBase
     {
         public readonly siscolasgamcContext _dbcontext;
-        public RequisitosController(siscolasgamcContext _context)
+        public readonly IRequisitoService _requisitoService;
+        private readonly IRequisitoPageService _requisitoPageService;
+        private IMapper _mapper;
+
+        public RequisitosController(siscolasgamcContext _context, IRequisitoService dtService, IMapper mapper, IRequisitoPageService servicio)
         {
             _dbcontext = _context;
+            _requisitoService = dtService;
+            _mapper = mapper;
+            _requisitoPageService = servicio;
         }
         [HttpGet]
         public IActionResult requisito()
@@ -28,6 +40,19 @@ namespace apiServices.Controllers
                 return StatusCode(StatusCodes.Status422UnprocessableEntity, ex);
             }
         }
+        //------------------------------------------------------------------------------------------------------------------
+        [HttpGet("paginacion/")]
+        public async Task<IActionResult> GetAll([FromQuery] PaginationQuery paginationQuery, [FromQuery] RequisitosQuery query)
+        {
+            var pagination = _mapper.Map<PaginationFilter>(paginationQuery);
+            var filter = new RequisitosFilter();
+            filter.nombre = query.nombre;
+            filter.sort = query.sort;
+            var dtResponse = await _requisitoService.GetRequisitoAsync(filter, pagination);
+            var paginas = await _requisitoPageService.GetRequisitoPageAsync(filter, pagination);
+            return Ok(new { data = dtResponse, paginas });
+        }
+        //---------------------------------------------------------------------------------------------------
         [HttpGet("{id:long}")]
         public IActionResult Getrequisito(long id)
         {

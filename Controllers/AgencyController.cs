@@ -69,16 +69,6 @@ namespace apiServices.Controllers
             var dtResponse = await _agenciaService.GetAgenciaAsync(filter, pagination);
             var paginas = await _agenciaPageService.GetAgenciaPageAsync(filter, pagination);
             return Ok(new { data = dtResponse, paginas });
-            /*if (filter.nombre != null)
-            {
-                var paginas = new PaginationMetaData(_dbcontext.Agencia.Where(a => a.NomAgencia == filter.nombre).Count(), pagination.PageNumber, pagination.PageSize);
-                return Ok(new { data = dtResponse, paginas.CurrentPage, paginas.TotalCount, paginas.TotalPages, paginas.HasPrevious, paginas.HasNext });
-            }
-            else
-            {
-                var paginas = new PaginationMetaData(_dbcontext.Agencia.Count(), pagination.PageNumber, pagination.PageSize);
-                return Ok(new { data = dtResponse, paginas.CurrentPage, paginas.TotalCount, paginas.TotalPages, paginas.HasPrevious, paginas.HasNext });
-            }*/
         }
         //---------------------------------------------------------------------------------------------------
 

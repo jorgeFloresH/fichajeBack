@@ -1,7 +1,12 @@
-﻿using apiServices.Models;
+﻿using apiServices.Data.Queries;
+using apiServices.Models;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using AutoMapper;
+using apiServices.Services;
+using apiServices.Data.Filters;
+using apiServices.Domain;
 
 namespace apiServices.Controllers
 {
@@ -11,10 +16,16 @@ namespace apiServices.Controllers
     public class UsersController : Controller
     {
         public readonly siscolasgamcContext _dbcontext;
+        private readonly IUsuarioService _usuarioService;
+        private readonly IUsuarioPageService _usuarioPageService;
+        private readonly IMapper _mapper;
 
-        public UsersController(siscolasgamcContext _context)
+        public UsersController(siscolasgamcContext _context, IUsuarioService dtService, IMapper mapper, IUsuarioPageService servicio)
         {
             _dbcontext = _context;
+            _usuarioService = dtService;
+            _mapper = mapper;
+            _usuarioPageService = servicio;
         }
 
         [HttpGet]
@@ -53,6 +64,27 @@ namespace apiServices.Controllers
                 return StatusCode(StatusCodes.Status422UnprocessableEntity, ex);
             }
         }
+
+
+        //-----------------------------------------------------------------------------------------------
+        [HttpGet("paginacion/")]
+        public async Task<IActionResult> GetAll([FromQuery] PaginationQuery paginationQuery, [FromQuery] UsuarioQuery query)
+        {
+            var pagination = _mapper.Map<PaginationFilter>(paginationQuery);
+            var filter = new UsuarioFilter();
+            filter.nombreCompleto = query.nombreCompleto;
+            filter.ci = query.ci;
+            filter.nombreUsuario = query.nombreUsuario;
+            filter.cargo = query.cargo;
+            filter.agencia = query.agencia;
+            filter.sort = query.sort;
+            var dtResponse = await _usuarioService.GetUsuarioAsync(filter, pagination);
+            var paginas = await _usuarioPageService.GetUsuarioPageAsync(filter,pagination);
+            return Ok(new { data = dtResponse, paginas });
+        }
+        //-----------------------------------------------------------------------------------------------
+        
+        
         [HttpGet("{id:long}")]
         public IActionResult idUser(long id)
         {

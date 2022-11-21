@@ -3,7 +3,7 @@
     public class AgenciaResponse
     {
         public long idAgencia { get; set; }
-        public string nomAgencia { get; set; }
+        public string? nomAgencia { get; set; }
         public int? estado { get; set; }
         public int? acdes { get; set; }
         public int? mapa { get; set; }

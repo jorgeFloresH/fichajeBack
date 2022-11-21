@@ -28,7 +28,7 @@ using System.Xml.Linq;
             PaginationResponse element = new PaginationResponse();
             if (filter.nombre != null)
             {
-                var datos = new PaginationMetaData(context.Agencia.Where(a => a.NomAgencia == filter.nombre).Count(), pFilter.PageNumber, pFilter.PageSize);
+                var datos = new PaginationMetaData(context.Agencia.Where(a => a.NomAgencia.Contains(filter.nombre)).Count(), pFilter.PageNumber, pFilter.PageSize);
                 element.CurrentPage = datos.CurrentPage;
                 element.TotalCount = datos.TotalCount;
                 element.TotalPages = datos.TotalPages;

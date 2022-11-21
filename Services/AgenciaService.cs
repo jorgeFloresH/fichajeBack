@@ -20,10 +20,6 @@ namespace apiServices.Services
         public async Task<List<AgenciaResponse>> GetAgenciaAsync(AgenciaFilter filter = null, PaginationFilter paginationFilter = null)
         {
             List<AgenciaResponse> result = new List<AgenciaResponse>();
-            if (paginationFilter == null)
-            {
-                //return await queryable.Include(x => x.Tags).ToListAsync();
-            }
             var skip = (paginationFilter.PageNumber - 1) * paginationFilter.PageSize;
             result = AddFiltersOnQuery(filter, _context, skip, paginationFilter);
             return result;
@@ -31,7 +27,6 @@ namespace apiServices.Services
 
         private static List<AgenciaResponse> AddFiltersOnQuery(AgenciaFilter filter, siscolasgamcContext context, int skip, PaginationFilter pFilter)
         {
-            string? fnombre = null;
             var resp =
                 (
                     from dt in context.Agencia
@@ -83,8 +78,7 @@ namespace apiServices.Services
             }
             if (!string.IsNullOrEmpty(filter?.nombre))
             {
-                fnombre = filter.nombre;
-                resp = resp.Where(o => o.nomAgencia == fnombre);
+                resp = resp.Where(o => o.nomAgencia.Contains(filter.nombre));
             }
             var resResult = resp.Skip(skip).Take(pFilter.PageSize).ToList();
             List<AgenciaResponse> result = new List<AgenciaResponse>();

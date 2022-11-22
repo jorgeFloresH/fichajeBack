@@ -1,8 +1,13 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
+using AutoMapper;
 using apiServices.Models;
 using Microsoft.AspNetCore.Cors;
+using apiServices.Data.Filters;
+using apiServices.Data.Queries;
+using apiServices.Domain;
+using apiServices.Services;
 
 namespace apiServices.Controllers
 {
@@ -12,10 +17,18 @@ namespace apiServices.Controllers
     public class VentanillaController : ControllerBase
     {
         public readonly siscolasgamcContext _dbcontext;
-        public VentanillaController(siscolasgamcContext _context)
+        private readonly IVentanillaService _ventanillaService;
+        private readonly IVentanillaPageService _ventanillaPageService;
+        private readonly IMapper _mapper;
+
+        public VentanillaController(siscolasgamcContext _context, IVentanillaService dtService, IMapper mapper, IVentanillaPageService servicio)
         {
             _dbcontext = _context;
+            _ventanillaService = dtService;
+            _mapper = mapper;
+            _ventanillaPageService = servicio;
         }
+
         [HttpGet]
         public IActionResult ventanilla()
         {
@@ -38,6 +51,22 @@ namespace apiServices.Controllers
                 return StatusCode(StatusCodes.Status422UnprocessableEntity, ex);
             }
         }
+
+        //-----------------------------------------------------------------------------------------------
+        [HttpGet("paginacion/")]
+        public async Task<IActionResult> GetAll([FromQuery] PaginationQuery paginationQuery, [FromQuery] VentanillaQuery query)
+        {
+            var pagination = _mapper.Map<PaginationFilter>(paginationQuery);
+            var filter = new VentanillaFilter();
+            filter.nombreVentanilla = query.nombreVentanilla;
+            filter.nombreAgencia = query.nombreAgencia;
+            filter.sort = query.sort;
+            var dtResponse = await _ventanillaService.GetVentanillaAsync(filter, pagination);
+            var paginas = await _ventanillaPageService.GetVentanillaPageAsync(filter, pagination);
+            return Ok(new { data = dtResponse, paginas });
+        }
+        //-----------------------------------------------------------------------------------------------
+
         [HttpGet("{id:long}")]
         public IActionResult Getventanilla(long id)
         {

@@ -39,6 +39,9 @@ builder.Services.AddScoped<IRequisitoPageService, RequisitoPageService>();
 
 builder.Services.AddScoped<ITramiteService, TramiteService>();
 builder.Services.AddScoped<ITramitePageService, TramitePageService>();
+
+builder.Services.AddScoped<IVentanillaService, VentanillaService>();
+builder.Services.AddScoped<IVentanillaPageService, VentanillaPageService>();
 //--------------------------------------------------------------------
 var misReglasCors = "ReglasCors";
 builder.Services.AddCors(opt =>

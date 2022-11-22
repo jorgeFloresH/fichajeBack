@@ -621,5 +621,48 @@ namespace apiServices.Controllers
                 return StatusCode(StatusCodes.Status422UnprocessableEntity, ex);
             }
         }
+
+        // ********************** Listar los tramites **********************
+
+        [HttpGet("GetFilterTodosTramites/{agencia}")]
+        public IActionResult GetListTramite(int agencia)
+        {
+       
+            try
+            {
+                var tickets = _dbcontext.Tickets
+                    .Where(t =>    
+                         t.IdAgenciaNavigation.IdAgencia == agencia 
+                         
+                  
+                    ).GroupBy(a =>
+                        new
+                        {
+                            a.IdTramite,
+                            a.IdTramiteNavigation.NomTramite
+                        }
+                     //a => a.IdTramite
+                     )
+                    .Select(t => new
+                    {
+                        cont = t.Count(),
+                        contEnEspera = t.Count(f => f.Estado == 1),
+                        contLLamados = t.Count(f => f.Estado == 2),
+                        contEnAtencion = t.Count(f => f.Estado == 3),
+                        contAtendidos = t.Count(f => f.Estado == 4),
+                        contNoSePresento = t.Count(f => f.Estado == 5),
+                        contNoAtendidos = t.Count(f => f.Estado == 6),
+                        //nomTramite = t.IdTramiteNavigation.NomTramite
+                        data = t.Key,
+                    }
+                    ).ToList();
+
+                return StatusCode(StatusCodes.Status200OK, new { mensaje = "success", response = tickets});
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status422UnprocessableEntity, ex);
+            }
+        }
     }
 }

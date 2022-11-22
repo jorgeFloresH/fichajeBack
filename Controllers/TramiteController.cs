@@ -75,7 +75,7 @@ namespace apiServices.Controllers
             try
             {
 
-                var tramites = _dbcontext.Tramites.Where(t => t.IdAgencia == agencia).Select(t =>
+               var tramites = _dbcontext.Tramites.Where(t => t.IdAgencia == agencia).Select(t =>
                new
                {
                    idTramite = t.IdTramite,

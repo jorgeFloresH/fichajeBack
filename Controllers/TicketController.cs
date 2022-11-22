@@ -566,5 +566,60 @@ namespace apiServices.Controllers
                 return StatusCode(StatusCodes.Status422UnprocessableEntity, ex);
             }
         }
+        // ********************** Filtrado por nomTramite y IdAgencia **********************
+
+        [HttpGet("GetFilterTickets/{agencia}/{IdTramite}/{fecha1}/{fecha2}")]
+        public IActionResult GetFilterNomTramite(int IdTramite, int agencia, DateTime fecha1, DateTime fecha2)
+        {
+            DateTime fecha1UTC = fecha1.ToUniversalTime();
+            DateTime fecha2UTC = fecha2.ToUniversalTime();
+            try
+            {
+                var tickets = _dbcontext.Tickets
+                    .Where(t =>
+                         t.IdTramiteNavigation.IdTramite == IdTramite &&
+                         t.IdAgenciaNavigation.IdAgencia == agencia &&
+                         t.FechaHora.Value.Date >= fecha1UTC.Date &&
+                         t.FechaHora.Value.Date <= fecha2UTC.Date
+
+                    ).GroupBy(
+                         a => a.IdTramite
+                     )
+                    .Select(t => new
+                    {
+                        cont = t.Count(),
+                        contEnEspera = t.Count(f => f.Estado == 1),
+                        contLLamados = t.Count(f => f.Estado == 2),
+                        contEnAtencion = t.Count(f => f.Estado == 3),
+                        contAtendidos = t.Count(f => f.Estado == 4),
+                        contNoSePresento = t.Count(f => f.Estado == 5),
+                        contNoAtendidos = t.Count(f => f.Estado == 6),
+
+                    }
+                    ).ToList();
+
+                var countTicketTramite = _dbcontext.Tickets
+                    .Where(t => t.FechaHora.Value.Date >= fecha1UTC.Date &&
+                            t.FechaHora.Value.Date <= fecha2UTC.Date &&
+                            t.IdTramiteNavigation.IdTramite == IdTramite)
+
+                    .GroupBy(t => t.IdTramiteNavigation.NomTramite)
+
+                    .Select(t =>
+                        new
+                        {
+                            nomTramite = t.Key.ToString(),
+                            conteo = t.Count(),
+                        }
+                       )
+                     .ToList();
+
+                return StatusCode(StatusCodes.Status200OK, new { mensaje = "success", response = tickets, response2 = countTicketTramite });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status422UnprocessableEntity, ex);
+            }
+        }
     }
 }

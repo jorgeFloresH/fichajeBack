@@ -16,5 +16,6 @@ namespace apiServices.Data.Filters
         public string agencia { get; set; }
 
         public string sort { get; set; }
+        public int idAgencia { get; set; } 
     }
 }

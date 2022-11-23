@@ -83,8 +83,26 @@ namespace apiServices.Controllers
             return Ok(new { data = dtResponse, paginas });
         }
         //-----------------------------------------------------------------------------------------------
-        
-        
+        //-----------------------------------------------------------------------------------------------
+        [HttpGet("paginacion/{agencia}")]
+        public async Task<IActionResult> GetAllAgency([FromQuery] PaginationQuery paginationQuery, [FromQuery] UsuarioQuery query, int agencia)
+        {
+            var pagination = _mapper.Map<PaginationFilter>(paginationQuery);
+            var filter = new UsuarioFilter();
+            filter.nombreCompleto = query.nombreCompleto;
+            filter.ci = query.ci;
+            filter.nombreUsuario = query.nombreUsuario;
+            filter.cargo = query.cargo;
+            filter.agencia = query.agencia;
+            filter.sort = query.sort;
+            filter.idAgencia = agencia;
+            var dtResponse = await _usuarioService.GetUsuarioAsync(filter, pagination);
+            var paginas = await _usuarioPageService.GetUsuarioPageAsync(filter, pagination);
+            return Ok(new { data = dtResponse, paginas});
+        }
+        //-----------------------------------------------------------------------------------------------
+
+
         [HttpGet("{id:long}")]
         public IActionResult idUser(long id)
         {

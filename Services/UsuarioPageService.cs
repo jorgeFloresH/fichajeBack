@@ -49,6 +49,10 @@ namespace apiServices.Services
                             consulta = dt.IdAgenciaNavigation.Consulta,
                         }
                 );
+            if (filter.idAgencia != 0)
+            {
+                resp = resp.Where(o => o.idAgencia == filter.idAgencia);
+            }
             if (!string.IsNullOrEmpty(filter.nombreCompleto))
             {
                 resp = resp.Where(u => string.Join(" ", u.nomUsuario, u.apePaterno, u.apeMaterno).Contains(filter.nombreCompleto));

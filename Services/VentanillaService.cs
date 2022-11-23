@@ -35,6 +35,10 @@ namespace apiServices.Services
                             nomAgencia = dt.IdAgenciaNavigation.NomAgencia
                         }
                 );
+            if (filter.idAgencia != 0)
+            {
+                resp = resp.Where(o => o.idAgencia == filter.idAgencia);
+            }
             if (filter.sort != null)
             {
                 if (filter.sort.Contains("-"))

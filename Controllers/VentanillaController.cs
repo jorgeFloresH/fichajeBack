@@ -66,6 +66,21 @@ namespace apiServices.Controllers
             return Ok(new { data = dtResponse, paginas });
         }
         //-----------------------------------------------------------------------------------------------
+        //-----------------------------------------------------------------------------------------------
+        [HttpGet("paginacion/{agencia}")]
+        public async Task<IActionResult> GetAllAgency([FromQuery] PaginationQuery paginationQuery, [FromQuery] VentanillaQuery query, int agencia)
+        {
+            var pagination = _mapper.Map<PaginationFilter>(paginationQuery);
+            var filter = new VentanillaFilter();
+            filter.nombreVentanilla = query.nombreVentanilla;
+            filter.nombreAgencia = query.nombreAgencia;
+            filter.sort = query.sort;
+            filter.idAgencia = agencia;
+            var dtResponse = await _ventanillaService.GetVentanillaAsync(filter, pagination);
+            var paginas = await _ventanillaPageService.GetVentanillaPageAsync(filter, pagination);
+            return Ok(new { data = dtResponse, paginas });
+        }
+        //-----------------------------------------------------------------------------------------------
 
         [HttpGet("{id:long}")]
         public IActionResult Getventanilla(long id)

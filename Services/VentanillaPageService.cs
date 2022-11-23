@@ -39,6 +39,10 @@ namespace apiServices.Services
                             nomAgencia = dt.IdAgenciaNavigation.NomAgencia,
                         }
                 );
+            if (filter.idAgencia != 0)
+            {
+                resp = resp.Where(o => o.idAgencia == filter.idAgencia);
+            }
             if (!string.IsNullOrEmpty(filter.nombreVentanilla))
             {
                 resp = resp.Where(v => v.nomVentanilla.Contains(filter.nombreVentanilla));

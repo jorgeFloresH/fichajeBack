@@ -2,6 +2,7 @@
 using apiServices.Data.Responses;
 using apiServices.Domain;
 using apiServices.Models;
+using Microsoft.AspNetCore.Mvc.Filters;
 
 namespace apiServices.Services
 {
@@ -47,6 +48,10 @@ namespace apiServices.Services
                             consulta = dt.IdAgenciaNavigation.Consulta,
                         }
                 );
+            if (filter.idAgencia != 0)
+            {
+                resp = resp.Where(o => o.idAgencia == filter.idAgencia);
+            }
             if (filter.sort != null)
             {
                 if (filter.sort.Contains("-"))

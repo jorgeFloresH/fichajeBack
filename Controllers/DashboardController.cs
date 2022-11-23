@@ -147,7 +147,7 @@ namespace apiServices.Controllers
                 return StatusCode(StatusCodes.Status422UnprocessableEntity, ex);
             }
         }
-        // ****************************** FILTRADO ******************************
+        // ****************************** FILTRADOOOOOOO ******************************
 
         [HttpGet("api/getDataByName/{nomUsuario}/{idAgencia}/{fecha1}/{fecha2}")]
         public IActionResult getDataByName(string nomUsuario, int idAgencia, DateTime fecha1, DateTime fecha2)

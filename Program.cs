@@ -42,6 +42,9 @@ builder.Services.AddScoped<ITramitePageService, TramitePageService>();
 
 builder.Services.AddScoped<IVentanillaService, VentanillaService>();
 builder.Services.AddScoped<IVentanillaPageService, VentanillaPageService>();
+
+builder.Services.AddScoped<ITicketService, TicketService>();
+builder.Services.AddScoped<ITicketPageService, TicketPageService>();
 //--------------------------------------------------------------------
 var misReglasCors = "ReglasCors";
 builder.Services.AddCors(opt =>

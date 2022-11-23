@@ -66,6 +66,22 @@ namespace apiServices.Controllers
             return Ok(new { data = dtResponse, paginas });
         }
         //-----------------------------------------------------------------------------------------------
+        
+        [HttpGet("FilterAgencia/paginacion/{agencia}")]
+        public async Task<IActionResult> GetAllFilterTramite([FromQuery] PaginationQuery paginationQuery, [FromQuery] TramiteQuery query, int agencia)
+        {
+            var pagination = _mapper.Map<PaginationFilter>(paginationQuery);
+            var filter = new TramiteFilter();
+            filter.nombreTramite = query.nombreTramite;
+            filter.nombreAgencia = query.nombreAgencia;
+            filter.sort = query.sort;
+            filter.idAgencia = agencia;
+            var dtResponse = await _tramiteService.GetTramiteAsync(filter, pagination);
+            var paginas = await _tramitePageService.GetTramitePageAsync(filter, pagination);
+            return Ok(new { data = dtResponse, paginas });
+        }
+        //-----------------------------------------------------------------------------------------------
+
 
         //Filter for agency
         [HttpGet("FilterAgencia/{agencia}")]
@@ -92,6 +108,8 @@ namespace apiServices.Controllers
                 return StatusCode(StatusCodes.Status422UnprocessableEntity, ex);
             }
         }
+
+
         [HttpGet("{id:long}")]
         public IActionResult GetTramitesFilterID(long id)
         {

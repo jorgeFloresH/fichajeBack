@@ -199,5 +199,39 @@ namespace apiServices.Controllers
                 return StatusCode(StatusCodes.Status422UnprocessableEntity, ex);
             }
         }
+
+        // ****************************** Listado de Users por Prioridad ******************************
+
+        [HttpGet("getFilterUsers/{idPrioridad}")]
+        public IActionResult getDataByName(int idPrioridad)
+        {
+            try
+            {
+                var usuario = _dbcontext.Tickets
+                                .Where(p => 
+                                    p.IdPrioridadNavigation.IdPrioridad == idPrioridad
+                                )
+                                .GroupBy(a =>
+                                new {
+                                    a.IdUsuarioNavigation.CiUsuario,
+                                    a.IdUsuarioNavigation.NomUsuario,
+                                    a.IdUsuarioNavigation.ApePaterno,
+                                    a.IdUsuarioNavigation.ApeMaterno,
+                                })
+                                .Select(t => new
+                                {
+                                    cont = t.Count(),
+                                    contAtendidos = t.Count(f => f.Estado == 4),
+                                    contNoAtendidos = t.Count(f => f.Estado == 6),
+                                    data = t.Key,
+                                })
+                                .ToList();
+                return StatusCode(StatusCodes.Status200OK, new { mensaje = "success", response = usuario });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status422UnprocessableEntity, ex);
+            }
+        }
     }
 }

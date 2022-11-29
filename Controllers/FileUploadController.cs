@@ -7,6 +7,11 @@ using System.IO;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Cors;
 using apiServices.Models;
+using apiServices.Data.Queries;
+using apiServices.Services;
+using AutoMapper;
+using apiServices.Domain;
+using apiServices.Data.Filters;
 
 namespace apiServices.Controllers
 {
@@ -20,15 +25,23 @@ namespace apiServices.Controllers
     {
         private readonly ILogger<FileUploadController> _logger;
         public readonly siscolasgamcContext _dbcontext;
+        private readonly IMultimediaService _multimediaService;
+        private readonly IMultimediaPageService _multimediaPageService;
+        private readonly IMultimediaServiceSuper _multimediaServiceSuper;
+        private readonly IMapper _mapper;
 
-        public FileUploadController(ILogger<FileUploadController> logger, siscolasgamcContext _context)
+        public FileUploadController(ILogger<FileUploadController> logger, siscolasgamcContext _context, IMultimediaService dtService, IMapper mapper, IMultimediaPageService servicio, IMultimediaServiceSuper servicioSuper)
         {
             _logger = logger;
             _dbcontext = _context;
+            _multimediaService = dtService;
+            _mapper = mapper;
+            _multimediaPageService = servicio;
+            _multimediaServiceSuper = servicioSuper;
+            _multimediaServiceSuper = servicioSuper;
         }
-        
 
-       
+
         [HttpGet]
         public IActionResult multimedia()
         {
@@ -74,7 +87,7 @@ namespace apiServices.Controllers
                                Tipo = p.Tipo,
                                Ruta = p.Ruta,
                                IdAgencia = p.IdAgencia,
-                               nomAgencia = p.IdAgenciaNavigation.NomAgencia,
+                               nomAgencia = p.IdAgenciaNavigation.NomAgencia
                            }),
 
                        }
@@ -145,6 +158,35 @@ namespace apiServices.Controllers
                 return StatusCode(StatusCodes.Status422UnprocessableEntity, ex);
             }
         }
+        //-----------------------------------------------------------------------------------------------
+        [HttpGet("paginacion/")]
+        public async Task<IActionResult> GetAll([FromQuery] PaginationQuery paginationQuery, [FromQuery] MultimediaQuery query)
+        {
+            var pagination = _mapper.Map<PaginationFilter>(paginationQuery);
+            var filter = new MultimediaFilter();
+            filter.nombreVideo = query.nombreVideo;
+            filter.sort = query.sort;
+            var dtResponse = await _multimediaServiceSuper.GetMultimediaSuperAsync(filter, pagination);
+            //var paginas = await _multimediaPageService.GetMultimediaPageAsync(filter, pagination);
+            return Ok(new { data = dtResponse });
+        }
+        //-----------------------------------------------------------------------------------------------
+        //-----------------------------------------------------------------------------------------------
+        [HttpGet("paginacion/{agencia}")]
+        public async Task<IActionResult> GetAll([FromQuery] PaginationQuery paginationQuery, [FromQuery] MultimediaQuery query, int agencia)
+        {
+            var pagination = _mapper.Map<PaginationFilter>(paginationQuery);
+            var filter = new MultimediaFilter();
+            filter.nombreVideo = query.nombreVideo;
+            filter.sort = query.sort;
+            filter.idAgencia = agencia;
+            var dtResponse = await _multimediaService.GetMultimediaAsync(filter, pagination);
+            var paginas = await _multimediaPageService.GetMultimediaPageAsync(filter, pagination);
+            return Ok(new { data = dtResponse, paginas});
+        }
+        //-----------------------------------------------------------------------------------------------
+       
+        
         [HttpGet("GetByIdAgEs/{idAgencia:long}")]
         public IActionResult GetMultimediaByIdAgen(long idAgencia)
         {

@@ -59,7 +59,7 @@ namespace apiServices.Controllers
             }
         }
         //------------------------------------------------------------------------------------------------------------------
-        [HttpGet("paginacion/")]
+        [HttpGet("paginacion")]
         public async Task<IActionResult> GetAll([FromQuery] PaginationQuery paginationQuery, [FromQuery] AgenciaQuery query)
         {
             var pagination = _mapper.Map<PaginationFilter>(paginationQuery);

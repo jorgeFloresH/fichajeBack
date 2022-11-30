@@ -3,6 +3,7 @@ using apiServices.Data.Queries;
 using apiServices.Data.Responses;
 using apiServices.Domain;
 using apiServices.Models;
+using System.Diagnostics.Metrics;
 
 namespace apiServices.Services
 {
@@ -35,16 +36,47 @@ namespace apiServices.Services
                             estado = dt.Estado,
                             tipo = dt.Tipo,
                             ruta = dt.Ruta,
-                            idAgencia = dt.IdAgencia
+                            idAgencia = dt.IdAgencia,
+                            nomAgencia = dt.IdAgenciaNavigation.NomAgencia
                         }
                 );
+            if (!string.IsNullOrEmpty(filter.buscarNomV))
+            {
+                resp =
+                (
+                    from dt in context.Multimedia
+                    where dt.NomVideo == filter.buscarNomV
+                    select
+                        new
+                        {
+                            idMulti = dt.IdMulti,
+                            nomVideo = dt.NomVideo,
+                            estado = dt.Estado,
+                            tipo = dt.Tipo,
+                            ruta = dt.Ruta,
+                            idAgencia = dt.IdAgencia,
+                            nomAgencia = dt.IdAgenciaNavigation.NomAgencia
+                        }
+                );
+            }
             if (filter.idAgencia != 0)
             {
                 resp = resp.Where(o => o.idAgencia == filter.idAgencia);
             }
-            if (!string.IsNullOrEmpty(filter.nombreVideo))
+
+            if (!string.IsNullOrEmpty(filter.buscarNomV))
             {
-                resp = resp.Where(u => u.nomVideo.Contains(filter.nombreVideo));
+                if (!string.IsNullOrEmpty(filter.nombreVideo))
+                {
+                    resp = resp.Where(u => u.nomAgencia.Contains(filter.nombreVideo));
+                }
+            }
+            if (filter.idAgencia != 0)
+            {
+                if (!string.IsNullOrEmpty(filter.nombreVideo))
+                {
+                    resp = resp.Where(u => u.nomVideo.Contains(filter.nombreVideo));
+                }
             }
             PaginationResponse element = new PaginationResponse();
             var datos = new PaginationMetaData(resp.Count(), pFilter.PageNumber, pFilter.PageSize);

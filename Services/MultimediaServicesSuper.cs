@@ -24,26 +24,46 @@ namespace apiServices.Services
         }
         private static List<MultimediaResponseSuper> AddFiltersOnQuery(MultimediaFilter filter, siscolasgamcContext contex, int skip, PaginationFilter pFilter)
         {
-            List<MultimediaResponseSuper> result = new List<MultimediaResponseSuper>();
-            var multimedia = contex.Multimedia
-                   .GroupBy(a => a.NomVideo)
-                   .Select(t =>
-                      new
-                      {
+            var resp =
+            (
+            from dt in contex.Multimedia
+            group dt by dt.NomVideo into g
+            select
+                new
+                {
+                    nomVideo = g.Key
+                }
+            );
 
-                          NomVideo = t.Key.ToString(),
-                          datos = t.Select(p => new
-                          {
-                              IdMulti = p.IdMulti,
-                              Estado = p.Estado,
-                              Tipo = p.Tipo,
-                              Ruta = p.Ruta,
-                              IdAgencia = p.IdAgencia,
-                              nomAgencia = p.IdAgenciaNavigation.NomAgencia
-                          }),
-                      }
-              ).ToList();
-            var resResult = multimedia.Skip(skip).Take(pFilter.PageSize).ToList();
+            if (filter.sort != null)
+            {
+                if (filter.sort.Contains("-"))
+                {
+                    var critery = filter.sort.Substring(1);
+                    switch (critery)
+                    {
+                        case "nomVideo":
+                            resp = resp.OrderByDescending(o => o.nomVideo);
+                            break;
+                    }
+                }
+                else
+                {
+                    switch (filter.sort)
+                    {
+                        case "nomVideo":
+                            resp = resp.OrderBy(o => o.nomVideo);
+                            break;
+                    }
+                }
+            }
+            if (!string.IsNullOrEmpty(filter.nombreVideo))
+            {
+                resp = resp.Where(u => u.nomVideo.Contains(filter.nombreVideo));
+            }
+
+            var resResult = resp.Skip(skip).Take(pFilter.PageSize).ToList();
+            List<MultimediaResponseSuper> result = new List<MultimediaResponseSuper>();
             foreach (var fila in resResult)
             {
                 var respuesta = contex.Multimedia
@@ -51,22 +71,11 @@ namespace apiServices.Services
                   .Select(t =>
                      new
                      {
-                         NomVideo = t.Key.ToString(),
-                         datos = t.Select(p => new
-                         {
-                             IdMulti = p.IdMulti,
-                             Estado = p.Estado,
-                             Tipo = p.Tipo,
-                             Ruta = p.Ruta,
-                             IdAgencia = p.IdAgencia,
-                             nomAgencia = p.IdAgenciaNavigation.NomAgencia
-                         })
-
+                         nomVideo = t.Key.ToString()
                      }
-             ).ToList();
+             );
                 MultimediaResponseSuper element = new MultimediaResponseSuper();
-                element.nomVideo = fila.NomVideo;
-                //element.data = fila.datos;
+                element.nomVideo = fila.nomVideo;
                 result.Add(element);
             }
             return result;

@@ -50,6 +50,7 @@ builder.Services.AddScoped<IMultimediaService, MultimediaService>();
 builder.Services.AddScoped<IMultimediaPageService, MultimediaPageService>();
 
 builder.Services.AddScoped<IMultimediaServiceSuper, MultimediaServicesSuper>();
+builder.Services.AddScoped<IMultimediaPageServiceSuper, MultimediaPageServiceSuper>();
 //--------------------------------------------------------------------
 var misReglasCors = "ReglasCors";
 builder.Services.AddCors(opt =>

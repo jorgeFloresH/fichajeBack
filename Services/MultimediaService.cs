@@ -43,6 +43,25 @@ namespace apiServices.Services
             {
                 resp = resp.Where(o => o.idAgencia == filter.idAgencia);
             }
+            if (!string.IsNullOrEmpty(filter.buscarNomV))
+            {
+                resp =
+                (
+                    from dt in contex.Multimedia
+                    where dt.NomVideo == filter.buscarNomV
+                    select
+                        new
+                        {
+                            idMulti = dt.IdMulti,
+                            nomVideo = dt.NomVideo,
+                            estado = dt.Estado,
+                            tipo = dt.Tipo,
+                            ruta = dt.Ruta,
+                            idAgencia = dt.IdAgencia,
+                            nomAgencia = dt.IdAgenciaNavigation.NomAgencia
+                        }
+                );
+            }
 
             if (filter.sort != null)
             {
@@ -60,6 +79,9 @@ namespace apiServices.Services
                         case "estado":
                             resp = resp.OrderByDescending(o => o.estado);
                             break;
+                        case "nomAgencia":
+                            resp = resp.OrderByDescending(o => o.nomAgencia);
+                            break;
                     }
                 }
                 else
@@ -75,16 +97,28 @@ namespace apiServices.Services
                         case "estado":
                             resp = resp.OrderBy(o => o.estado);
                             break;
+                        case "nomAgencia":
+                            resp = resp.OrderBy(o => o.nomAgencia);
+                            break;
                     }
                 }
             }
-            if (!string.IsNullOrEmpty(filter.nombreVideo))
+            if (!string.IsNullOrEmpty(filter.buscarNomV))
             {
-                resp = resp.Where(u => u.nomVideo.Contains(filter.nombreVideo));
+                if (!string.IsNullOrEmpty(filter.nombreVideo))
+                {
+                    resp = resp.Where(u => u.nomAgencia.Contains(filter.nombreVideo));
+                }
             }
-
+            if (filter.idAgencia != 0)
+            {
+                if (!string.IsNullOrEmpty(filter.nombreVideo))
+                {
+                    resp = resp.Where(u => u.nomVideo.Contains(filter.nombreVideo));
+                }
+            }
             var resResult = resp.Skip(skip).Take(pFilter.PageSize).ToList();
-           
+
             List<MultimediaResponse> result = new List<MultimediaResponse>();
             foreach (var fila in resResult)
             {

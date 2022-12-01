@@ -1,328 +1,390 @@
-C:\Users\DANGO\Documents\Projects_vs\API\apiServices\apiServices\bin\Debug\net6.0\appsettings.Development.json
-C:\Users\DANGO\Documents\Projects_vs\API\apiServices\apiServices\bin\Debug\net6.0\appsettings.json
-C:\Users\DANGO\Documents\Projects_vs\API\apiServices\apiServices\bin\Debug\net6.0\apiServices.exe
-C:\Users\DANGO\Documents\Projects_vs\API\apiServices\apiServices\bin\Debug\net6.0\apiServices.deps.json
-C:\Users\DANGO\Documents\Projects_vs\API\apiServices\apiServices\bin\Debug\net6.0\apiServices.runtimeconfig.json
-C:\Users\DANGO\Documents\Projects_vs\API\apiServices\apiServices\bin\Debug\net6.0\apiServices.dll
-C:\Users\DANGO\Documents\Projects_vs\API\apiServices\apiServices\bin\Debug\net6.0\apiServices.pdb
-C:\Users\DANGO\Documents\Projects_vs\API\apiServices\apiServices\bin\Debug\net6.0\Humanizer.dll
-C:\Users\DANGO\Documents\Projects_vs\API\apiServices\apiServices\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\DANGO\Documents\Projects_vs\API\apiServices\apiServices\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\DANGO\Documents\Projects_vs\API\apiServices\apiServices\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\DANGO\Documents\Projects_vs\API\apiServices\apiServices\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\DANGO\Documents\Projects_vs\API\apiServices\apiServices\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\DANGO\Documents\Projects_vs\API\apiServices\apiServices\bin\Debug\net6.0\Microsoft.OpenApi.dll
-C:\Users\DANGO\Documents\Projects_vs\API\apiServices\apiServices\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\DANGO\Documents\Projects_vs\API\apiServices\apiServices\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\DANGO\Documents\Projects_vs\API\apiServices\apiServices\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\DANGO\Documents\Projects_vs\API\apiServices\apiServices\obj\Debug\net6.0\apiServices.csproj.AssemblyReference.cache
-C:\Users\DANGO\Documents\Projects_vs\API\apiServices\apiServices\obj\Debug\net6.0\apiServices.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\DANGO\Documents\Projects_vs\API\apiServices\apiServices\obj\Debug\net6.0\apiServices.AssemblyInfoInputs.cache
-C:\Users\DANGO\Documents\Projects_vs\API\apiServices\apiServices\obj\Debug\net6.0\apiServices.AssemblyInfo.cs
-C:\Users\DANGO\Documents\Projects_vs\API\apiServices\apiServices\obj\Debug\net6.0\apiServices.csproj.CoreCompileInputs.cache
-C:\Users\DANGO\Documents\Projects_vs\API\apiServices\apiServices\obj\Debug\net6.0\apiServices.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\DANGO\Documents\Projects_vs\API\apiServices\apiServices\obj\Debug\net6.0\apiServices.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\DANGO\Documents\Projects_vs\API\apiServices\apiServices\obj\Debug\net6.0\staticwebassets.build.json
-C:\Users\DANGO\Documents\Projects_vs\API\apiServices\apiServices\obj\Debug\net6.0\staticwebassets.development.json
-C:\Users\DANGO\Documents\Projects_vs\API\apiServices\apiServices\obj\Debug\net6.0\scopedcss\bundle\apiServices.styles.css
-C:\Users\DANGO\Documents\Projects_vs\API\apiServices\apiServices\obj\Debug\net6.0\apiServices.csproj.CopyComplete
-C:\Users\DANGO\Documents\Projects_vs\API\apiServices\apiServices\obj\Debug\net6.0\apiServices.dll
-C:\Users\DANGO\Documents\Projects_vs\API\apiServices\apiServices\obj\Debug\net6.0\refint\apiServices.dll
-C:\Users\DANGO\Documents\Projects_vs\API\apiServices\apiServices\obj\Debug\net6.0\apiServices.pdb
-C:\Users\DANGO\Documents\Projects_vs\API\apiServices\apiServices\obj\Debug\net6.0\apiServices.genruntimeconfig.cache
-C:\Users\DANGO\Documents\Projects_vs\API\apiServices\apiServices\obj\Debug\net6.0\ref\apiServices.dll
-C:\Users\DANGO\Documents\Projects_vs\API\apiServices\apiServices\bin\Debug\net6.0\Npgsql.dll
-C:\Users\DANGO\Documents\Projects_vs\API\apiServices\apiServices\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
-C:\Users\DANGO\Documents\apiNuevoentity\s.c.g.c-back\obj\Debug\net6.0\apiServices.csproj.AssemblyReference.cache
-C:\Users\DANGO\Documents\apiNuevoentity\s.c.g.c-back\obj\Debug\net6.0\apiServices.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\DANGO\Documents\apiNuevoentity\s.c.g.c-back\obj\Debug\net6.0\apiServices.AssemblyInfoInputs.cache
-C:\Users\DANGO\Documents\apiNuevoentity\s.c.g.c-back\obj\Debug\net6.0\apiServices.AssemblyInfo.cs
-C:\Users\DANGO\Documents\apiNuevoentity\s.c.g.c-back\obj\Debug\net6.0\apiServices.csproj.CoreCompileInputs.cache
-C:\Users\DANGO\Documents\apiNuevoentity\s.c.g.c-back\obj\Debug\net6.0\apiServices.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\DANGO\Documents\apiNuevoentity\s.c.g.c-back\obj\Debug\net6.0\apiServices.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\DANGO\Documents\apiNuevoentity\s.c.g.c-back\obj\Debug\net6.0\apiServices.dll
-C:\Users\DANGO\Documents\apiNuevoentity\s.c.g.c-back\obj\Debug\net6.0\refint\apiServices.dll
-C:\Users\DANGO\Documents\apiNuevoentity\s.c.g.c-back\obj\Debug\net6.0\apiServices.pdb
-C:\Users\DANGO\Documents\apiNuevoentity\s.c.g.c-back\bin\Debug\net6.0\appsettings.Development.json
-C:\Users\DANGO\Documents\apiNuevoentity\s.c.g.c-back\bin\Debug\net6.0\appsettings.json
-C:\Users\DANGO\Documents\apiNuevoentity\s.c.g.c-back\bin\Debug\net6.0\apiServices.exe
-C:\Users\DANGO\Documents\apiNuevoentity\s.c.g.c-back\bin\Debug\net6.0\apiServices.deps.json
-C:\Users\DANGO\Documents\apiNuevoentity\s.c.g.c-back\bin\Debug\net6.0\apiServices.runtimeconfig.json
-C:\Users\DANGO\Documents\apiNuevoentity\s.c.g.c-back\bin\Debug\net6.0\apiServices.dll
-C:\Users\DANGO\Documents\apiNuevoentity\s.c.g.c-back\bin\Debug\net6.0\apiServices.pdb
-C:\Users\DANGO\Documents\apiNuevoentity\s.c.g.c-back\bin\Debug\net6.0\Humanizer.dll
-C:\Users\DANGO\Documents\apiNuevoentity\s.c.g.c-back\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\DANGO\Documents\apiNuevoentity\s.c.g.c-back\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\DANGO\Documents\apiNuevoentity\s.c.g.c-back\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\DANGO\Documents\apiNuevoentity\s.c.g.c-back\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\DANGO\Documents\apiNuevoentity\s.c.g.c-back\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\DANGO\Documents\apiNuevoentity\s.c.g.c-back\bin\Debug\net6.0\Microsoft.OpenApi.dll
-C:\Users\DANGO\Documents\apiNuevoentity\s.c.g.c-back\bin\Debug\net6.0\Npgsql.dll
-C:\Users\DANGO\Documents\apiNuevoentity\s.c.g.c-back\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
-C:\Users\DANGO\Documents\apiNuevoentity\s.c.g.c-back\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\DANGO\Documents\apiNuevoentity\s.c.g.c-back\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\DANGO\Documents\apiNuevoentity\s.c.g.c-back\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\DANGO\Documents\apiNuevoentity\s.c.g.c-back\obj\Debug\net6.0\staticwebassets.build.json
-C:\Users\DANGO\Documents\apiNuevoentity\s.c.g.c-back\obj\Debug\net6.0\staticwebassets.development.json
-C:\Users\DANGO\Documents\apiNuevoentity\s.c.g.c-back\obj\Debug\net6.0\scopedcss\bundle\apiServices.styles.css
-C:\Users\DANGO\Documents\apiNuevoentity\s.c.g.c-back\obj\Debug\net6.0\apiServices.csproj.CopyComplete
-C:\Users\DANGO\Documents\apiNuevoentity\s.c.g.c-back\obj\Debug\net6.0\apiServices.genruntimeconfig.cache
-C:\Users\DANGO\Documents\apiNuevoentity\s.c.g.c-back\obj\Debug\net6.0\ref\apiServices.dll
-C:\Users\Asus\source\repos\s.c.g.c-back\bin\Debug\net6.0\appsettings.Development.json
-C:\Users\Asus\source\repos\s.c.g.c-back\bin\Debug\net6.0\appsettings.json
-C:\Users\Asus\source\repos\s.c.g.c-back\bin\Debug\net6.0\apiServices.exe
-C:\Users\Asus\source\repos\s.c.g.c-back\bin\Debug\net6.0\apiServices.deps.json
-C:\Users\Asus\source\repos\s.c.g.c-back\bin\Debug\net6.0\apiServices.runtimeconfig.json
-C:\Users\Asus\source\repos\s.c.g.c-back\bin\Debug\net6.0\apiServices.dll
-C:\Users\Asus\source\repos\s.c.g.c-back\bin\Debug\net6.0\apiServices.pdb
-C:\Users\Asus\source\repos\s.c.g.c-back\bin\Debug\net6.0\Humanizer.dll
-C:\Users\Asus\source\repos\s.c.g.c-back\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\Asus\source\repos\s.c.g.c-back\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\Asus\source\repos\s.c.g.c-back\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\Asus\source\repos\s.c.g.c-back\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\Asus\source\repos\s.c.g.c-back\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\Asus\source\repos\s.c.g.c-back\bin\Debug\net6.0\Microsoft.OpenApi.dll
-C:\Users\Asus\source\repos\s.c.g.c-back\bin\Debug\net6.0\Npgsql.dll
-C:\Users\Asus\source\repos\s.c.g.c-back\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
-C:\Users\Asus\source\repos\s.c.g.c-back\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\Asus\source\repos\s.c.g.c-back\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\Asus\source\repos\s.c.g.c-back\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\Asus\source\repos\s.c.g.c-back\obj\Debug\net6.0\apiServices.csproj.AssemblyReference.cache
-C:\Users\Asus\source\repos\s.c.g.c-back\obj\Debug\net6.0\apiServices.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Asus\source\repos\s.c.g.c-back\obj\Debug\net6.0\apiServices.AssemblyInfoInputs.cache
-C:\Users\Asus\source\repos\s.c.g.c-back\obj\Debug\net6.0\apiServices.AssemblyInfo.cs
-C:\Users\Asus\source\repos\s.c.g.c-back\obj\Debug\net6.0\apiServices.csproj.CoreCompileInputs.cache
-C:\Users\Asus\source\repos\s.c.g.c-back\obj\Debug\net6.0\apiServices.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Asus\source\repos\s.c.g.c-back\obj\Debug\net6.0\apiServices.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Asus\source\repos\s.c.g.c-back\obj\Debug\net6.0\staticwebassets.build.json
-C:\Users\Asus\source\repos\s.c.g.c-back\obj\Debug\net6.0\staticwebassets.development.json
-C:\Users\Asus\source\repos\s.c.g.c-back\obj\Debug\net6.0\scopedcss\bundle\apiServices.styles.css
-C:\Users\Asus\source\repos\s.c.g.c-back\obj\Debug\net6.0\apiServices.csproj.CopyComplete
-C:\Users\Asus\source\repos\s.c.g.c-back\obj\Debug\net6.0\apiServices.dll
-C:\Users\Asus\source\repos\s.c.g.c-back\obj\Debug\net6.0\refint\apiServices.dll
-C:\Users\Asus\source\repos\s.c.g.c-back\obj\Debug\net6.0\apiServices.pdb
-C:\Users\Asus\source\repos\s.c.g.c-back\obj\Debug\net6.0\apiServices.genruntimeconfig.cache
-C:\Users\Asus\source\repos\s.c.g.c-back\obj\Debug\net6.0\ref\apiServices.dll
-F:\catastrosis\s.c.g.c-back\bin\Debug\net6.0\appsettings.Development.json
-F:\catastrosis\s.c.g.c-back\bin\Debug\net6.0\appsettings.json
-F:\catastrosis\s.c.g.c-back\bin\Debug\net6.0\apiServices.exe
-F:\catastrosis\s.c.g.c-back\bin\Debug\net6.0\apiServices.deps.json
-F:\catastrosis\s.c.g.c-back\bin\Debug\net6.0\apiServices.runtimeconfig.json
-F:\catastrosis\s.c.g.c-back\bin\Debug\net6.0\apiServices.dll
-F:\catastrosis\s.c.g.c-back\bin\Debug\net6.0\apiServices.pdb
-F:\catastrosis\s.c.g.c-back\bin\Debug\net6.0\Humanizer.dll
-F:\catastrosis\s.c.g.c-back\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
-F:\catastrosis\s.c.g.c-back\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-F:\catastrosis\s.c.g.c-back\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
-F:\catastrosis\s.c.g.c-back\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
-F:\catastrosis\s.c.g.c-back\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
-F:\catastrosis\s.c.g.c-back\bin\Debug\net6.0\Microsoft.OpenApi.dll
-F:\catastrosis\s.c.g.c-back\bin\Debug\net6.0\Npgsql.dll
-F:\catastrosis\s.c.g.c-back\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
-F:\catastrosis\s.c.g.c-back\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
-F:\catastrosis\s.c.g.c-back\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-F:\catastrosis\s.c.g.c-back\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-F:\catastrosis\s.c.g.c-back\obj\Debug\net6.0\apiServices.csproj.AssemblyReference.cache
-F:\catastrosis\s.c.g.c-back\obj\Debug\net6.0\apiServices.GeneratedMSBuildEditorConfig.editorconfig
-F:\catastrosis\s.c.g.c-back\obj\Debug\net6.0\apiServices.AssemblyInfoInputs.cache
-F:\catastrosis\s.c.g.c-back\obj\Debug\net6.0\apiServices.AssemblyInfo.cs
-F:\catastrosis\s.c.g.c-back\obj\Debug\net6.0\apiServices.csproj.CoreCompileInputs.cache
-F:\catastrosis\s.c.g.c-back\obj\Debug\net6.0\apiServices.MvcApplicationPartsAssemblyInfo.cs
-F:\catastrosis\s.c.g.c-back\obj\Debug\net6.0\apiServices.MvcApplicationPartsAssemblyInfo.cache
-F:\catastrosis\s.c.g.c-back\obj\Debug\net6.0\staticwebassets.build.json
-F:\catastrosis\s.c.g.c-back\obj\Debug\net6.0\staticwebassets.development.json
-F:\catastrosis\s.c.g.c-back\obj\Debug\net6.0\scopedcss\bundle\apiServices.styles.css
-F:\catastrosis\s.c.g.c-back\obj\Debug\net6.0\apiServices.csproj.CopyComplete
-F:\catastrosis\s.c.g.c-back\obj\Debug\net6.0\apiServices.dll
-F:\catastrosis\s.c.g.c-back\obj\Debug\net6.0\refint\apiServices.dll
-F:\catastrosis\s.c.g.c-back\obj\Debug\net6.0\apiServices.pdb
-F:\catastrosis\s.c.g.c-back\obj\Debug\net6.0\apiServices.genruntimeconfig.cache
-F:\catastrosis\s.c.g.c-back\obj\Debug\net6.0\ref\apiServices.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\bin\Debug\net6.0\publish\web.config
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\bin\Debug\net6.0\appsettings.Development.json
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\bin\Debug\net6.0\appsettings.json
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\bin\Debug\net6.0\publish\apiServices.deps.json
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\bin\Debug\net6.0\publish\apiServices.runtimeconfig.json
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\bin\Debug\net6.0\publish\appsettings.Development.json
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\bin\Debug\net6.0\publish\appsettings.json
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\bin\Debug\net6.0\apiServices.exe
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\bin\Debug\net6.0\apiServices.deps.json
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\bin\Debug\net6.0\apiServices.runtimeconfig.json
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\bin\Debug\net6.0\apiServices.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\bin\Debug\net6.0\apiServices.pdb
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\bin\Debug\net6.0\EntityFramework.SqlServer.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\bin\Debug\net6.0\EntityFramework.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\bin\Debug\net6.0\Humanizer.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\bin\Debug\net6.0\Microsoft.OpenApi.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\bin\Debug\net6.0\Npgsql.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\bin\Debug\net6.0\System.CodeDom.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\bin\Debug\net6.0\System.Data.SqlClient.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\bin\Debug\net6.0\System.Drawing.Common.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\bin\Debug\net6.0\System.Security.Permissions.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\bin\Debug\net6.0\System.Windows.Extensions.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\obj\Debug\net6.0\apiServices.csproj.AssemblyReference.cache
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\obj\Debug\net6.0\apiServices.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\obj\Debug\net6.0\apiServices.AssemblyInfoInputs.cache
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\obj\Debug\net6.0\apiServices.AssemblyInfo.cs
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\obj\Debug\net6.0\apiServices.csproj.CoreCompileInputs.cache
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\obj\Debug\net6.0\apiServices.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\obj\Debug\net6.0\apiServices.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\obj\Debug\net6.0\staticwebassets.build.json
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\obj\Debug\net6.0\staticwebassets.development.json
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\obj\Debug\net6.0\scopedcss\bundle\apiServices.styles.css
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\obj\Debug\net6.0\apiServices.csproj.CopyComplete
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\obj\Debug\net6.0\apiServices.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\obj\Debug\net6.0\refint\apiServices.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\obj\Debug\net6.0\apiServices.pdb
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\obj\Debug\net6.0\apiServices.genruntimeconfig.cache
-C:\Users\Andres\Desktop\Visual Studio 2022\Proyecto-Tickets\back\obj\Debug\net6.0\ref\apiServices.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\bin\Debug\net6.0\publish\web.config
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\bin\Debug\net6.0\appsettings.Development.json
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\bin\Debug\net6.0\publish\apiServices.deps.json
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\bin\Debug\net6.0\publish\apiServices.runtimeconfig.json
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\bin\Debug\net6.0\publish\appsettings.Development.json
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\bin\Debug\net6.0\publish\appsettings.json
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\bin\Debug\net6.0\appsettings.json
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\bin\Debug\net6.0\apiServices.exe
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\bin\Debug\net6.0\apiServices.deps.json
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\bin\Debug\net6.0\apiServices.runtimeconfig.json
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\bin\Debug\net6.0\apiServices.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\bin\Debug\net6.0\apiServices.pdb
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\bin\Debug\net6.0\EntityFramework.SqlServer.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\bin\Debug\net6.0\EntityFramework.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\bin\Debug\net6.0\Humanizer.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\bin\Debug\net6.0\Microsoft.OpenApi.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\bin\Debug\net6.0\Npgsql.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\bin\Debug\net6.0\System.CodeDom.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\bin\Debug\net6.0\System.Data.SqlClient.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\bin\Debug\net6.0\System.Drawing.Common.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\bin\Debug\net6.0\System.Security.Permissions.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\bin\Debug\net6.0\System.Windows.Extensions.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\obj\Debug\net6.0\apiServices.csproj.AssemblyReference.cache
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\obj\Debug\net6.0\apiServices.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\obj\Debug\net6.0\apiServices.AssemblyInfoInputs.cache
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\obj\Debug\net6.0\apiServices.AssemblyInfo.cs
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\obj\Debug\net6.0\apiServices.csproj.CoreCompileInputs.cache
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\obj\Debug\net6.0\apiServices.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\obj\Debug\net6.0\apiServices.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\obj\Debug\net6.0\staticwebassets.build.json
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\obj\Debug\net6.0\staticwebassets.development.json
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\obj\Debug\net6.0\scopedcss\bundle\apiServices.styles.css
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\obj\Debug\net6.0\apiServices.csproj.CopyComplete
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\obj\Debug\net6.0\apiServices.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\obj\Debug\net6.0\refint\apiServices.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\obj\Debug\net6.0\apiServices.pdb
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\obj\Debug\net6.0\apiServices.genruntimeconfig.cache
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back\obj\Debug\net6.0\ref\apiServices.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\appsettings.Development.json
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\appsettings.json
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\publish\web.config
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\publish\apiServices.deps.json
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\publish\apiServices.runtimeconfig.json
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\publish\appsettings.Development.json
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\publish\appsettings.json
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\apiServices.exe
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\apiServices.deps.json
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\apiServices.runtimeconfig.json
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\apiServices.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\apiServices.pdb
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\EntityFramework.SqlServer.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\EntityFramework.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\Humanizer.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\Microsoft.OpenApi.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\Npgsql.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\System.CodeDom.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\System.Data.SqlClient.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\System.Drawing.Common.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\System.Security.Permissions.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\System.Windows.Extensions.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\obj\Debug\net6.0\apiServices.csproj.AssemblyReference.cache
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\obj\Debug\net6.0\apiServices.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\obj\Debug\net6.0\apiServices.AssemblyInfoInputs.cache
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\obj\Debug\net6.0\apiServices.AssemblyInfo.cs
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\obj\Debug\net6.0\apiServices.csproj.CoreCompileInputs.cache
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\obj\Debug\net6.0\apiServices.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\obj\Debug\net6.0\apiServices.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\obj\Debug\net6.0\staticwebassets.build.json
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\obj\Debug\net6.0\staticwebassets.development.json
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\obj\Debug\net6.0\scopedcss\bundle\apiServices.styles.css
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\obj\Debug\net6.0\apiServices.csproj.CopyComplete
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\obj\Debug\net6.0\apiServices.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\obj\Debug\net6.0\refint\apiServices.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\obj\Debug\net6.0\apiServices.pdb
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\obj\Debug\net6.0\apiServices.genruntimeconfig.cache
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\obj\Debug\net6.0\ref\apiServices.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\AutoMapper.dll
-C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:/Users/DANGO/Documents/Projects_vs/API/apiServices/apiServices/bin/Debug/net6.0/appsettings.Development.json
+C:/Users/DANGO/Documents/Projects_vs/API/apiServices/apiServices/bin/Debug/net6.0/appsettings.json
+C:/Users/DANGO/Documents/Projects_vs/API/apiServices/apiServices/bin/Debug/net6.0/apiServices.exe
+C:/Users/DANGO/Documents/Projects_vs/API/apiServices/apiServices/bin/Debug/net6.0/apiServices.deps.json
+C:/Users/DANGO/Documents/Projects_vs/API/apiServices/apiServices/bin/Debug/net6.0/apiServices.runtimeconfig.json
+C:/Users/DANGO/Documents/Projects_vs/API/apiServices/apiServices/bin/Debug/net6.0/apiServices.dll
+C:/Users/DANGO/Documents/Projects_vs/API/apiServices/apiServices/bin/Debug/net6.0/apiServices.pdb
+C:/Users/DANGO/Documents/Projects_vs/API/apiServices/apiServices/bin/Debug/net6.0/Humanizer.dll
+C:/Users/DANGO/Documents/Projects_vs/API/apiServices/apiServices/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+C:/Users/DANGO/Documents/Projects_vs/API/apiServices/apiServices/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/DANGO/Documents/Projects_vs/API/apiServices/apiServices/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+C:/Users/DANGO/Documents/Projects_vs/API/apiServices/apiServices/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/DANGO/Documents/Projects_vs/API/apiServices/apiServices/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+C:/Users/DANGO/Documents/Projects_vs/API/apiServices/apiServices/bin/Debug/net6.0/Microsoft.OpenApi.dll
+C:/Users/DANGO/Documents/Projects_vs/API/apiServices/apiServices/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/DANGO/Documents/Projects_vs/API/apiServices/apiServices/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/DANGO/Documents/Projects_vs/API/apiServices/apiServices/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/DANGO/Documents/Projects_vs/API/apiServices/apiServices/obj/Debug/net6.0/apiServices.csproj.AssemblyReference.cache
+C:/Users/DANGO/Documents/Projects_vs/API/apiServices/apiServices/obj/Debug/net6.0/apiServices.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/DANGO/Documents/Projects_vs/API/apiServices/apiServices/obj/Debug/net6.0/apiServices.AssemblyInfoInputs.cache
+C:/Users/DANGO/Documents/Projects_vs/API/apiServices/apiServices/obj/Debug/net6.0/apiServices.AssemblyInfo.cs
+C:/Users/DANGO/Documents/Projects_vs/API/apiServices/apiServices/obj/Debug/net6.0/apiServices.csproj.CoreCompileInputs.cache
+C:/Users/DANGO/Documents/Projects_vs/API/apiServices/apiServices/obj/Debug/net6.0/apiServices.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/DANGO/Documents/Projects_vs/API/apiServices/apiServices/obj/Debug/net6.0/apiServices.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/DANGO/Documents/Projects_vs/API/apiServices/apiServices/obj/Debug/net6.0/staticwebassets.build.json
+C:/Users/DANGO/Documents/Projects_vs/API/apiServices/apiServices/obj/Debug/net6.0/staticwebassets.development.json
+C:/Users/DANGO/Documents/Projects_vs/API/apiServices/apiServices/obj/Debug/net6.0/scopedcss/bundle/apiServices.styles.css
+C:/Users/DANGO/Documents/Projects_vs/API/apiServices/apiServices/obj/Debug/net6.0/apiServices.csproj.CopyComplete
+C:/Users/DANGO/Documents/Projects_vs/API/apiServices/apiServices/obj/Debug/net6.0/apiServices.dll
+C:/Users/DANGO/Documents/Projects_vs/API/apiServices/apiServices/obj/Debug/net6.0/refint/apiServices.dll
+C:/Users/DANGO/Documents/Projects_vs/API/apiServices/apiServices/obj/Debug/net6.0/apiServices.pdb
+C:/Users/DANGO/Documents/Projects_vs/API/apiServices/apiServices/obj/Debug/net6.0/apiServices.genruntimeconfig.cache
+C:/Users/DANGO/Documents/Projects_vs/API/apiServices/apiServices/obj/Debug/net6.0/ref/apiServices.dll
+C:/Users/DANGO/Documents/Projects_vs/API/apiServices/apiServices/bin/Debug/net6.0/Npgsql.dll
+C:/Users/DANGO/Documents/Projects_vs/API/apiServices/apiServices/bin/Debug/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:/Users/DANGO/Documents/apiNuevoentity/s.c.g.c-back/obj/Debug/net6.0/apiServices.csproj.AssemblyReference.cache
+C:/Users/DANGO/Documents/apiNuevoentity/s.c.g.c-back/obj/Debug/net6.0/apiServices.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/DANGO/Documents/apiNuevoentity/s.c.g.c-back/obj/Debug/net6.0/apiServices.AssemblyInfoInputs.cache
+C:/Users/DANGO/Documents/apiNuevoentity/s.c.g.c-back/obj/Debug/net6.0/apiServices.AssemblyInfo.cs
+C:/Users/DANGO/Documents/apiNuevoentity/s.c.g.c-back/obj/Debug/net6.0/apiServices.csproj.CoreCompileInputs.cache
+C:/Users/DANGO/Documents/apiNuevoentity/s.c.g.c-back/obj/Debug/net6.0/apiServices.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/DANGO/Documents/apiNuevoentity/s.c.g.c-back/obj/Debug/net6.0/apiServices.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/DANGO/Documents/apiNuevoentity/s.c.g.c-back/obj/Debug/net6.0/apiServices.dll
+C:/Users/DANGO/Documents/apiNuevoentity/s.c.g.c-back/obj/Debug/net6.0/refint/apiServices.dll
+C:/Users/DANGO/Documents/apiNuevoentity/s.c.g.c-back/obj/Debug/net6.0/apiServices.pdb
+C:/Users/DANGO/Documents/apiNuevoentity/s.c.g.c-back/bin/Debug/net6.0/appsettings.Development.json
+C:/Users/DANGO/Documents/apiNuevoentity/s.c.g.c-back/bin/Debug/net6.0/appsettings.json
+C:/Users/DANGO/Documents/apiNuevoentity/s.c.g.c-back/bin/Debug/net6.0/apiServices.exe
+C:/Users/DANGO/Documents/apiNuevoentity/s.c.g.c-back/bin/Debug/net6.0/apiServices.deps.json
+C:/Users/DANGO/Documents/apiNuevoentity/s.c.g.c-back/bin/Debug/net6.0/apiServices.runtimeconfig.json
+C:/Users/DANGO/Documents/apiNuevoentity/s.c.g.c-back/bin/Debug/net6.0/apiServices.dll
+C:/Users/DANGO/Documents/apiNuevoentity/s.c.g.c-back/bin/Debug/net6.0/apiServices.pdb
+C:/Users/DANGO/Documents/apiNuevoentity/s.c.g.c-back/bin/Debug/net6.0/Humanizer.dll
+C:/Users/DANGO/Documents/apiNuevoentity/s.c.g.c-back/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+C:/Users/DANGO/Documents/apiNuevoentity/s.c.g.c-back/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/DANGO/Documents/apiNuevoentity/s.c.g.c-back/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+C:/Users/DANGO/Documents/apiNuevoentity/s.c.g.c-back/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/DANGO/Documents/apiNuevoentity/s.c.g.c-back/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+C:/Users/DANGO/Documents/apiNuevoentity/s.c.g.c-back/bin/Debug/net6.0/Microsoft.OpenApi.dll
+C:/Users/DANGO/Documents/apiNuevoentity/s.c.g.c-back/bin/Debug/net6.0/Npgsql.dll
+C:/Users/DANGO/Documents/apiNuevoentity/s.c.g.c-back/bin/Debug/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:/Users/DANGO/Documents/apiNuevoentity/s.c.g.c-back/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/DANGO/Documents/apiNuevoentity/s.c.g.c-back/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/DANGO/Documents/apiNuevoentity/s.c.g.c-back/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/DANGO/Documents/apiNuevoentity/s.c.g.c-back/obj/Debug/net6.0/staticwebassets.build.json
+C:/Users/DANGO/Documents/apiNuevoentity/s.c.g.c-back/obj/Debug/net6.0/staticwebassets.development.json
+C:/Users/DANGO/Documents/apiNuevoentity/s.c.g.c-back/obj/Debug/net6.0/scopedcss/bundle/apiServices.styles.css
+C:/Users/DANGO/Documents/apiNuevoentity/s.c.g.c-back/obj/Debug/net6.0/apiServices.csproj.CopyComplete
+C:/Users/DANGO/Documents/apiNuevoentity/s.c.g.c-back/obj/Debug/net6.0/apiServices.genruntimeconfig.cache
+C:/Users/DANGO/Documents/apiNuevoentity/s.c.g.c-back/obj/Debug/net6.0/ref/apiServices.dll
+C:/Users/Asus/source/repos/s.c.g.c-back/bin/Debug/net6.0/appsettings.Development.json
+C:/Users/Asus/source/repos/s.c.g.c-back/bin/Debug/net6.0/appsettings.json
+C:/Users/Asus/source/repos/s.c.g.c-back/bin/Debug/net6.0/apiServices.exe
+C:/Users/Asus/source/repos/s.c.g.c-back/bin/Debug/net6.0/apiServices.deps.json
+C:/Users/Asus/source/repos/s.c.g.c-back/bin/Debug/net6.0/apiServices.runtimeconfig.json
+C:/Users/Asus/source/repos/s.c.g.c-back/bin/Debug/net6.0/apiServices.dll
+C:/Users/Asus/source/repos/s.c.g.c-back/bin/Debug/net6.0/apiServices.pdb
+C:/Users/Asus/source/repos/s.c.g.c-back/bin/Debug/net6.0/Humanizer.dll
+C:/Users/Asus/source/repos/s.c.g.c-back/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+C:/Users/Asus/source/repos/s.c.g.c-back/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/Asus/source/repos/s.c.g.c-back/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+C:/Users/Asus/source/repos/s.c.g.c-back/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/Asus/source/repos/s.c.g.c-back/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+C:/Users/Asus/source/repos/s.c.g.c-back/bin/Debug/net6.0/Microsoft.OpenApi.dll
+C:/Users/Asus/source/repos/s.c.g.c-back/bin/Debug/net6.0/Npgsql.dll
+C:/Users/Asus/source/repos/s.c.g.c-back/bin/Debug/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:/Users/Asus/source/repos/s.c.g.c-back/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/Asus/source/repos/s.c.g.c-back/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/Asus/source/repos/s.c.g.c-back/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/Asus/source/repos/s.c.g.c-back/obj/Debug/net6.0/apiServices.csproj.AssemblyReference.cache
+C:/Users/Asus/source/repos/s.c.g.c-back/obj/Debug/net6.0/apiServices.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Asus/source/repos/s.c.g.c-back/obj/Debug/net6.0/apiServices.AssemblyInfoInputs.cache
+C:/Users/Asus/source/repos/s.c.g.c-back/obj/Debug/net6.0/apiServices.AssemblyInfo.cs
+C:/Users/Asus/source/repos/s.c.g.c-back/obj/Debug/net6.0/apiServices.csproj.CoreCompileInputs.cache
+C:/Users/Asus/source/repos/s.c.g.c-back/obj/Debug/net6.0/apiServices.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/Asus/source/repos/s.c.g.c-back/obj/Debug/net6.0/apiServices.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/Asus/source/repos/s.c.g.c-back/obj/Debug/net6.0/staticwebassets.build.json
+C:/Users/Asus/source/repos/s.c.g.c-back/obj/Debug/net6.0/staticwebassets.development.json
+C:/Users/Asus/source/repos/s.c.g.c-back/obj/Debug/net6.0/scopedcss/bundle/apiServices.styles.css
+C:/Users/Asus/source/repos/s.c.g.c-back/obj/Debug/net6.0/apiServices.csproj.CopyComplete
+C:/Users/Asus/source/repos/s.c.g.c-back/obj/Debug/net6.0/apiServices.dll
+C:/Users/Asus/source/repos/s.c.g.c-back/obj/Debug/net6.0/refint/apiServices.dll
+C:/Users/Asus/source/repos/s.c.g.c-back/obj/Debug/net6.0/apiServices.pdb
+C:/Users/Asus/source/repos/s.c.g.c-back/obj/Debug/net6.0/apiServices.genruntimeconfig.cache
+C:/Users/Asus/source/repos/s.c.g.c-back/obj/Debug/net6.0/ref/apiServices.dll
+F:/catastrosis/s.c.g.c-back/bin/Debug/net6.0/appsettings.Development.json
+F:/catastrosis/s.c.g.c-back/bin/Debug/net6.0/appsettings.json
+F:/catastrosis/s.c.g.c-back/bin/Debug/net6.0/apiServices.exe
+F:/catastrosis/s.c.g.c-back/bin/Debug/net6.0/apiServices.deps.json
+F:/catastrosis/s.c.g.c-back/bin/Debug/net6.0/apiServices.runtimeconfig.json
+F:/catastrosis/s.c.g.c-back/bin/Debug/net6.0/apiServices.dll
+F:/catastrosis/s.c.g.c-back/bin/Debug/net6.0/apiServices.pdb
+F:/catastrosis/s.c.g.c-back/bin/Debug/net6.0/Humanizer.dll
+F:/catastrosis/s.c.g.c-back/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+F:/catastrosis/s.c.g.c-back/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+F:/catastrosis/s.c.g.c-back/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+F:/catastrosis/s.c.g.c-back/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+F:/catastrosis/s.c.g.c-back/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+F:/catastrosis/s.c.g.c-back/bin/Debug/net6.0/Microsoft.OpenApi.dll
+F:/catastrosis/s.c.g.c-back/bin/Debug/net6.0/Npgsql.dll
+F:/catastrosis/s.c.g.c-back/bin/Debug/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+F:/catastrosis/s.c.g.c-back/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+F:/catastrosis/s.c.g.c-back/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+F:/catastrosis/s.c.g.c-back/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+F:/catastrosis/s.c.g.c-back/obj/Debug/net6.0/apiServices.csproj.AssemblyReference.cache
+F:/catastrosis/s.c.g.c-back/obj/Debug/net6.0/apiServices.GeneratedMSBuildEditorConfig.editorconfig
+F:/catastrosis/s.c.g.c-back/obj/Debug/net6.0/apiServices.AssemblyInfoInputs.cache
+F:/catastrosis/s.c.g.c-back/obj/Debug/net6.0/apiServices.AssemblyInfo.cs
+F:/catastrosis/s.c.g.c-back/obj/Debug/net6.0/apiServices.csproj.CoreCompileInputs.cache
+F:/catastrosis/s.c.g.c-back/obj/Debug/net6.0/apiServices.MvcApplicationPartsAssemblyInfo.cs
+F:/catastrosis/s.c.g.c-back/obj/Debug/net6.0/apiServices.MvcApplicationPartsAssemblyInfo.cache
+F:/catastrosis/s.c.g.c-back/obj/Debug/net6.0/staticwebassets.build.json
+F:/catastrosis/s.c.g.c-back/obj/Debug/net6.0/staticwebassets.development.json
+F:/catastrosis/s.c.g.c-back/obj/Debug/net6.0/scopedcss/bundle/apiServices.styles.css
+F:/catastrosis/s.c.g.c-back/obj/Debug/net6.0/apiServices.csproj.CopyComplete
+F:/catastrosis/s.c.g.c-back/obj/Debug/net6.0/apiServices.dll
+F:/catastrosis/s.c.g.c-back/obj/Debug/net6.0/refint/apiServices.dll
+F:/catastrosis/s.c.g.c-back/obj/Debug/net6.0/apiServices.pdb
+F:/catastrosis/s.c.g.c-back/obj/Debug/net6.0/apiServices.genruntimeconfig.cache
+F:/catastrosis/s.c.g.c-back/obj/Debug/net6.0/ref/apiServices.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/bin/Debug/net6.0/publish/web.config
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/bin/Debug/net6.0/appsettings.Development.json
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/bin/Debug/net6.0/appsettings.json
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/bin/Debug/net6.0/publish/apiServices.deps.json
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/bin/Debug/net6.0/publish/apiServices.runtimeconfig.json
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/bin/Debug/net6.0/publish/appsettings.Development.json
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/bin/Debug/net6.0/publish/appsettings.json
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/bin/Debug/net6.0/apiServices.exe
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/bin/Debug/net6.0/apiServices.deps.json
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/bin/Debug/net6.0/apiServices.runtimeconfig.json
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/bin/Debug/net6.0/apiServices.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/bin/Debug/net6.0/apiServices.pdb
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/bin/Debug/net6.0/EntityFramework.SqlServer.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/bin/Debug/net6.0/EntityFramework.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/bin/Debug/net6.0/Humanizer.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/bin/Debug/net6.0/Microsoft.OpenApi.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/bin/Debug/net6.0/Npgsql.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/bin/Debug/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/bin/Debug/net6.0/System.CodeDom.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/bin/Debug/net6.0/System.Data.SqlClient.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/bin/Debug/net6.0/System.Drawing.Common.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/bin/Debug/net6.0/System.Security.Permissions.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/bin/Debug/net6.0/System.Windows.Extensions.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/bin/Debug/net6.0/runtimes/win-arm64/native/sni.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/bin/Debug/net6.0/runtimes/win-x64/native/sni.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/bin/Debug/net6.0/runtimes/win-x86/native/sni.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/bin/Debug/net6.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/obj/Debug/net6.0/apiServices.csproj.AssemblyReference.cache
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/obj/Debug/net6.0/apiServices.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/obj/Debug/net6.0/apiServices.AssemblyInfoInputs.cache
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/obj/Debug/net6.0/apiServices.AssemblyInfo.cs
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/obj/Debug/net6.0/apiServices.csproj.CoreCompileInputs.cache
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/obj/Debug/net6.0/apiServices.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/obj/Debug/net6.0/apiServices.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/obj/Debug/net6.0/staticwebassets.build.json
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/obj/Debug/net6.0/staticwebassets.development.json
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/obj/Debug/net6.0/scopedcss/bundle/apiServices.styles.css
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/obj/Debug/net6.0/apiServices.csproj.CopyComplete
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/obj/Debug/net6.0/apiServices.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/obj/Debug/net6.0/refint/apiServices.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/obj/Debug/net6.0/apiServices.pdb
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/obj/Debug/net6.0/apiServices.genruntimeconfig.cache
+C:/Users/Andres/Desktop/Visual Studio 2022/Proyecto-Tickets/back/obj/Debug/net6.0/ref/apiServices.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/bin/Debug/net6.0/publish/web.config
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/bin/Debug/net6.0/appsettings.Development.json
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/bin/Debug/net6.0/publish/apiServices.deps.json
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/bin/Debug/net6.0/publish/apiServices.runtimeconfig.json
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/bin/Debug/net6.0/publish/appsettings.Development.json
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/bin/Debug/net6.0/publish/appsettings.json
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/bin/Debug/net6.0/appsettings.json
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/bin/Debug/net6.0/apiServices.exe
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/bin/Debug/net6.0/apiServices.deps.json
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/bin/Debug/net6.0/apiServices.runtimeconfig.json
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/bin/Debug/net6.0/apiServices.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/bin/Debug/net6.0/apiServices.pdb
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/bin/Debug/net6.0/EntityFramework.SqlServer.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/bin/Debug/net6.0/EntityFramework.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/bin/Debug/net6.0/Humanizer.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/bin/Debug/net6.0/Microsoft.OpenApi.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/bin/Debug/net6.0/Npgsql.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/bin/Debug/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/bin/Debug/net6.0/System.CodeDom.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/bin/Debug/net6.0/System.Data.SqlClient.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/bin/Debug/net6.0/System.Drawing.Common.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/bin/Debug/net6.0/System.Security.Permissions.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/bin/Debug/net6.0/System.Windows.Extensions.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/bin/Debug/net6.0/runtimes/win-arm64/native/sni.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/bin/Debug/net6.0/runtimes/win-x64/native/sni.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/bin/Debug/net6.0/runtimes/win-x86/native/sni.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/bin/Debug/net6.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/obj/Debug/net6.0/apiServices.csproj.AssemblyReference.cache
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/obj/Debug/net6.0/apiServices.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/obj/Debug/net6.0/apiServices.AssemblyInfoInputs.cache
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/obj/Debug/net6.0/apiServices.AssemblyInfo.cs
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/obj/Debug/net6.0/apiServices.csproj.CoreCompileInputs.cache
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/obj/Debug/net6.0/apiServices.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/obj/Debug/net6.0/apiServices.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/obj/Debug/net6.0/staticwebassets.build.json
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/obj/Debug/net6.0/staticwebassets.development.json
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/obj/Debug/net6.0/scopedcss/bundle/apiServices.styles.css
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/obj/Debug/net6.0/apiServices.csproj.CopyComplete
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/obj/Debug/net6.0/apiServices.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/obj/Debug/net6.0/refint/apiServices.dll
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/obj/Debug/net6.0/apiServices.pdb
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/obj/Debug/net6.0/apiServices.genruntimeconfig.cache
+C:/Users/Andres/Desktop/Visual Studio 2022/Tickets Nuevo/back/obj/Debug/net6.0/ref/apiServices.dll
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/bin/Debug/net6.0/appsettings.Development.json
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/bin/Debug/net6.0/appsettings.json
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/bin/Debug/net6.0/publish/web.config
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/bin/Debug/net6.0/publish/apiServices.deps.json
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/bin/Debug/net6.0/publish/apiServices.runtimeconfig.json
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/bin/Debug/net6.0/publish/appsettings.Development.json
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/bin/Debug/net6.0/publish/appsettings.json
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/bin/Debug/net6.0/apiServices
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/bin/Debug/net6.0/apiServices.deps.json
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/bin/Debug/net6.0/apiServices.runtimeconfig.json
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/bin/Debug/net6.0/apiServices.dll
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/bin/Debug/net6.0/apiServices.pdb
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/bin/Debug/net6.0/AutoMapper.dll
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/bin/Debug/net6.0/EntityFramework.SqlServer.dll
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/bin/Debug/net6.0/EntityFramework.dll
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/bin/Debug/net6.0/Humanizer.dll
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/bin/Debug/net6.0/Microsoft.OpenApi.dll
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/bin/Debug/net6.0/Npgsql.dll
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/bin/Debug/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/bin/Debug/net6.0/System.CodeDom.dll
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/bin/Debug/net6.0/System.Data.SqlClient.dll
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/bin/Debug/net6.0/System.Drawing.Common.dll
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/bin/Debug/net6.0/System.Security.Permissions.dll
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/bin/Debug/net6.0/System.Windows.Extensions.dll
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/bin/Debug/net6.0/runtimes/win-arm64/native/sni.dll
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/bin/Debug/net6.0/runtimes/win-x64/native/sni.dll
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/bin/Debug/net6.0/runtimes/win-x86/native/sni.dll
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/bin/Debug/net6.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/obj/Debug/net6.0/apiServices.csproj.AssemblyReference.cache
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/obj/Debug/net6.0/apiServices.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/obj/Debug/net6.0/apiServices.AssemblyInfoInputs.cache
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/obj/Debug/net6.0/apiServices.AssemblyInfo.cs
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/obj/Debug/net6.0/apiServices.csproj.CoreCompileInputs.cache
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/obj/Debug/net6.0/apiServices.MvcApplicationPartsAssemblyInfo.cs
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/obj/Debug/net6.0/apiServices.MvcApplicationPartsAssemblyInfo.cache
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/obj/Debug/net6.0/staticwebassets.build.json
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/obj/Debug/net6.0/staticwebassets.development.json
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/obj/Debug/net6.0/scopedcss/bundle/apiServices.styles.css
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/obj/Debug/net6.0/apiServices.csproj.CopyComplete
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/obj/Debug/net6.0/apiServices.dll
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/obj/Debug/net6.0/refint/apiServices.dll
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/obj/Debug/net6.0/apiServices.pdb
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/obj/Debug/net6.0/apiServices.genruntimeconfig.cache
+/Users/macbook/Desktop/Alcaldia/back-s.c.g.c-new/obj/Debug/net6.0/ref/apiServices.dll
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/bin/Debug/net6.0/publish/web.config
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/bin/Debug/net6.0/appsettings.Development.json
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/bin/Debug/net6.0/appsettings.json
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/bin/Debug/net6.0/publish/apiServices.deps.json
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/bin/Debug/net6.0/publish/apiServices.runtimeconfig.json
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/bin/Debug/net6.0/publish/appsettings.Development.json
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/bin/Debug/net6.0/publish/appsettings.json
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/bin/Debug/net6.0/apiServices
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/bin/Debug/net6.0/apiServices.deps.json
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/bin/Debug/net6.0/apiServices.runtimeconfig.json
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/bin/Debug/net6.0/apiServices.dll
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/bin/Debug/net6.0/apiServices.pdb
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/bin/Debug/net6.0/AutoMapper.dll
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/bin/Debug/net6.0/EntityFramework.SqlServer.dll
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/bin/Debug/net6.0/EntityFramework.dll
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/bin/Debug/net6.0/Humanizer.dll
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/bin/Debug/net6.0/Microsoft.OpenApi.dll
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/bin/Debug/net6.0/Npgsql.dll
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/bin/Debug/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/bin/Debug/net6.0/System.CodeDom.dll
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/bin/Debug/net6.0/System.Data.SqlClient.dll
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/bin/Debug/net6.0/System.Drawing.Common.dll
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/bin/Debug/net6.0/System.Security.Permissions.dll
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/bin/Debug/net6.0/System.Windows.Extensions.dll
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/bin/Debug/net6.0/runtimes/win-arm64/native/sni.dll
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/bin/Debug/net6.0/runtimes/win-x64/native/sni.dll
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/bin/Debug/net6.0/runtimes/win-x86/native/sni.dll
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/bin/Debug/net6.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/obj/Debug/net6.0/apiServices.csproj.AssemblyReference.cache
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/obj/Debug/net6.0/apiServices.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/obj/Debug/net6.0/apiServices.AssemblyInfoInputs.cache
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/obj/Debug/net6.0/apiServices.AssemblyInfo.cs
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/obj/Debug/net6.0/apiServices.csproj.CoreCompileInputs.cache
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/obj/Debug/net6.0/apiServices.MvcApplicationPartsAssemblyInfo.cs
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/obj/Debug/net6.0/apiServices.MvcApplicationPartsAssemblyInfo.cache
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/obj/Debug/net6.0/staticwebassets.build.json
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/obj/Debug/net6.0/staticwebassets.development.json
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/obj/Debug/net6.0/scopedcss/bundle/apiServices.styles.css
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/obj/Debug/net6.0/apiServices.csproj.CopyComplete
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/obj/Debug/net6.0/apiServices.dll
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/obj/Debug/net6.0/refint/apiServices.dll
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/obj/Debug/net6.0/apiServices.pdb
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/obj/Debug/net6.0/apiServices.genruntimeconfig.cache
+/Users/macbook/Desktop/Alcaldia/ProyectoMauri/back-s.c.g.c-new/obj/Debug/net6.0/ref/apiServices.dll
+C:\Users\oscar\Desktop\PASANTIAS ALCALDIA\New_AlcaldiaTickets\back-s.c.g.c-new\bin\Debug\net6.0\publish\web.config
 C:\Users\oscar\Desktop\PASANTIAS ALCALDIA\New_AlcaldiaTickets\back-s.c.g.c-new\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\oscar\Desktop\PASANTIAS ALCALDIA\New_AlcaldiaTickets\back-s.c.g.c-new\bin\Debug\net6.0\appsettings.json
-C:\Users\oscar\Desktop\PASANTIAS ALCALDIA\New_AlcaldiaTickets\back-s.c.g.c-new\bin\Debug\net6.0\publish\web.config
 C:\Users\oscar\Desktop\PASANTIAS ALCALDIA\New_AlcaldiaTickets\back-s.c.g.c-new\bin\Debug\net6.0\publish\apiServices.deps.json
 C:\Users\oscar\Desktop\PASANTIAS ALCALDIA\New_AlcaldiaTickets\back-s.c.g.c-new\bin\Debug\net6.0\publish\apiServices.runtimeconfig.json
 C:\Users\oscar\Desktop\PASANTIAS ALCALDIA\New_AlcaldiaTickets\back-s.c.g.c-new\bin\Debug\net6.0\publish\appsettings.Development.json
@@ -382,3 +444,65 @@ C:\Users\oscar\Desktop\PASANTIAS ALCALDIA\New_AlcaldiaTickets\back-s.c.g.c-new\o
 C:\Users\oscar\Desktop\PASANTIAS ALCALDIA\New_AlcaldiaTickets\back-s.c.g.c-new\obj\Debug\net6.0\apiServices.pdb
 C:\Users\oscar\Desktop\PASANTIAS ALCALDIA\New_AlcaldiaTickets\back-s.c.g.c-new\obj\Debug\net6.0\apiServices.genruntimeconfig.cache
 C:\Users\oscar\Desktop\PASANTIAS ALCALDIA\New_AlcaldiaTickets\back-s.c.g.c-new\obj\Debug\net6.0\ref\apiServices.dll
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\publish\web.config
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\appsettings.json
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\publish\apiServices.deps.json
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\publish\apiServices.runtimeconfig.json
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\publish\appsettings.Development.json
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\publish\appsettings.json
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\apiServices.exe
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\apiServices.deps.json
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\apiServices.runtimeconfig.json
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\apiServices.dll
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\apiServices.pdb
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\EntityFramework.dll
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\Npgsql.dll
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\obj\Debug\net6.0\apiServices.csproj.AssemblyReference.cache
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\obj\Debug\net6.0\apiServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\obj\Debug\net6.0\apiServices.AssemblyInfoInputs.cache
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\obj\Debug\net6.0\apiServices.AssemblyInfo.cs
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\obj\Debug\net6.0\apiServices.csproj.CoreCompileInputs.cache
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\obj\Debug\net6.0\apiServices.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\obj\Debug\net6.0\apiServices.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\obj\Debug\net6.0\scopedcss\bundle\apiServices.styles.css
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\obj\Debug\net6.0\apiServices.csproj.CopyComplete
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\obj\Debug\net6.0\apiServices.dll
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\obj\Debug\net6.0\refint\apiServices.dll
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\obj\Debug\net6.0\apiServices.pdb
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\obj\Debug\net6.0\apiServices.genruntimeconfig.cache
+C:\Users\Andres\Desktop\Visual Studio 2022\Tickets Nuevo\back-s.c.g.c-new\obj\Debug\net6.0\ref\apiServices.dll

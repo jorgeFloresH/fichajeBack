@@ -2361,24 +2361,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\oscar\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Andres\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\oscar\\Desktop\\PASANTIAS ALCALDIA\\New_AlcaldiaTickets\\back-s.c.g.c-new\\apiServices.csproj",
+      "projectUniqueName": "C:\\Users\\Andres\\Desktop\\Visual Studio 2022\\Tickets Nuevo\\back-s.c.g.c-new\\apiServices.csproj",
       "projectName": "apiServices",
-      "projectPath": "C:\\Users\\oscar\\Desktop\\PASANTIAS ALCALDIA\\New_AlcaldiaTickets\\back-s.c.g.c-new\\apiServices.csproj",
-      "packagesPath": "C:\\Users\\oscar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\oscar\\Desktop\\PASANTIAS ALCALDIA\\New_AlcaldiaTickets\\back-s.c.g.c-new\\obj\\",
+      "projectPath": "C:\\Users\\Andres\\Desktop\\Visual Studio 2022\\Tickets Nuevo\\back-s.c.g.c-new\\apiServices.csproj",
+      "packagesPath": "C:\\Users\\Andres\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Andres\\Desktop\\Visual Studio 2022\\Tickets Nuevo\\back-s.c.g.c-new\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\oscar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Andres\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2386,7 +2381,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

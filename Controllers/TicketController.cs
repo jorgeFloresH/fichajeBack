@@ -1,4 +1,9 @@
-﻿using apiServices.Models;
+﻿using apiServices.Data.Filters;
+using apiServices.Data.Queries;
+using apiServices.Domain;
+using apiServices.Models;
+using apiServices.Services;
+using AutoMapper;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -12,11 +17,18 @@ namespace apiServices.Controllers
     public class TicketController : Controller
     {
         public readonly siscolasgamcContext _dbcontext;
+        private readonly ITicketService _ticketService;
+        private readonly ITicketPageService _ticketPageService;
+        private readonly IMapper _mapper;
 
-        public TicketController(siscolasgamcContext _context)
+        public TicketController(siscolasgamcContext _context, ITicketService dtService, IMapper mapper, ITicketPageService servicio)
         {
             _dbcontext = _context;
+            _ticketService = dtService;
+            _mapper = mapper;
+            _ticketPageService = servicio;
         }
+
         [HttpGet]
         public IActionResult ticketsGet()
         {
@@ -53,6 +65,23 @@ namespace apiServices.Controllers
                 return StatusCode(StatusCodes.Status422UnprocessableEntity, ex);
             }
         }
+
+        [HttpGet("Ticket/paginacion")]
+        public async Task<IActionResult> GetAll([FromQuery] PaginationQuery paginationQuery, [FromQuery] TicketQuery query)
+        {
+            var pagination = _mapper.Map<PaginationFilter>(paginationQuery);
+            var filter = new TicketFilter();
+            filter.nombreAgencia = query.nombreAgencia;
+            filter.nombreTramite = query.nombreTramite;
+            filter.nombreVentanilla = query.nombreVentanilla;
+            filter.tipoCliente = query.tipoCliente;
+            filter.fecha = query.fecha;
+            filter.sort = query.sort;
+            var dtResponse = await _ticketService.GetTicketAsync(filter, pagination);
+            var paginas = await _ticketPageService.GetTicketPageAsync(filter, pagination);
+            return Ok(new { data = dtResponse, paginas });
+        }
+
         [HttpGet("StatusTicket/{estado}/{agencia}")]
         public IActionResult GetstatusTicket( int estado,int agencia)
         {
@@ -560,6 +589,132 @@ namespace apiServices.Controllers
                 _dbcontext.Tickets.Update(tickets);
                 _dbcontext.SaveChanges();
                 return StatusCode(StatusCodes.Status200OK, new { mensaje = "Actualizado Satisfactoriamente" });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status422UnprocessableEntity, ex);
+            }
+        }
+        // ********************** Filtrado por nomTramite y IdAgencia **********************
+
+        [HttpGet("GetFilterTickets/{agencia}/{IdTramite}/{fecha1}/{fecha2}")]
+        public IActionResult GetFilterNomTramite(int IdTramite, int agencia, DateTime fecha1, DateTime fecha2)
+        {
+            DateTime fecha1UTC = fecha1.ToUniversalTime();
+            DateTime fecha2UTC = fecha2.ToUniversalTime();
+            try
+            {
+                var tickets = _dbcontext.Tickets
+                    .Where(t =>
+                         t.IdTramiteNavigation.IdTramite == IdTramite &&
+                         t.IdAgenciaNavigation.IdAgencia == agencia &&
+                         t.FechaHora.Value.Date >= fecha1UTC.Date &&
+                         t.FechaHora.Value.Date <= fecha2UTC.Date
+
+                         //a => a.IdTramite
+                    ).GroupBy(a =>
+                            new
+                            {
+                              a.IdTramite,
+                              a.IdTramiteNavigation.NomTramite
+                            }
+
+                     )
+                    .Select(t => new
+                    {
+                        cont = t.Count(),
+                        contEnEspera = t.Count(f => f.Estado == 1),
+                        contLLamados = t.Count(f => f.Estado == 2),
+                        contEnAtencion = t.Count(f => f.Estado == 3),
+                        contAtendidos = t.Count(f => f.Estado == 4),
+                        contNoSePresento = t.Count(f => f.Estado == 5),
+                        contNoAtendidos = t.Count(f => f.Estado == 6),
+                        data = t.Key,
+
+                    }
+                    ).ToList();
+
+                var countTicketTramite = _dbcontext.Tickets
+                    .Where(t => t.FechaHora.Value.Date >= fecha1UTC.Date &&
+                            t.FechaHora.Value.Date <= fecha2UTC.Date &&
+                            t.IdTramiteNavigation.IdTramite == IdTramite)
+
+                    .GroupBy(t =>
+                        t.IdTramiteNavigation.NomTramite
+                    )
+
+                    .Select(t =>
+                        new
+                        {
+                            contEnEspera = t.Count(f => f.Estado == 1),
+                            contAtendidos = t.Count(f => f.Estado == 4),
+                            contNoAtendidos = t.Count(f => f.Estado == 6),
+                            conteo = t.Count(),
+                            nomTramite = t.Key,
+                        }
+                       )
+                     .ToList();
+
+                return StatusCode(StatusCodes.Status200OK, new { mensaje = "success", response = tickets, response2 = countTicketTramite });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status422UnprocessableEntity, ex);
+            }
+        }
+
+        // ********************** Listar los tramites **********************
+
+        [HttpGet("GetFilterTodosTramites/{agencia}")]
+        public IActionResult GetListTramite(int agencia)
+        {
+       
+            try
+            {
+                var tickets = _dbcontext.Tickets
+                    .Where(t =>    
+                         t.IdAgenciaNavigation.IdAgencia == agencia 
+                   
+                    ).GroupBy(a =>
+                        new
+                        {
+                            a.IdTramite,
+                            a.IdTramiteNavigation.NomTramite
+                        }
+                     )
+                    .Select(t => new
+                    {
+                        cont = t.Count(),
+                        contEnEspera = t.Count(f => f.Estado == 1),
+                        contLLamados = t.Count(f => f.Estado == 2),
+                        contEnAtencion = t.Count(f => f.Estado == 3),
+                        contAtendidos = t.Count(f => f.Estado == 4),
+                        contNoSePresento = t.Count(f => f.Estado == 5),
+                        contNoAtendidos = t.Count(f => f.Estado == 6),
+                        data = t.Key,
+                    }
+                    ).ToList();
+
+                var countTicketTramite = _dbcontext.Tickets
+                    .Where(t =>
+                            t.IdAgenciaNavigation.IdAgencia == agencia
+                         )
+                        .GroupBy(t =>
+                            t.IdTramiteNavigation.NomTramite
+                        )
+                        .Select(t =>
+                        new
+                        {
+                            nomTramite = t.Key,
+                            datos = new
+                            {
+                                contEnEspera = t.Count(f => f.Estado == 1),
+                                contAtendidos = t.Count(f => f.Estado == 4),
+                                contNoAtendidos = t.Count(f => f.Estado == 6),
+                            }
+                        }).ToList();
+
+                return StatusCode(StatusCodes.Status200OK, new { mensaje = "success", response = tickets, response2 = countTicketTramite });
             }
             catch (Exception ex)
             {

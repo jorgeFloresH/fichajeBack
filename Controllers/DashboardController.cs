@@ -147,5 +147,167 @@ namespace apiServices.Controllers
                 return StatusCode(StatusCodes.Status422UnprocessableEntity, ex);
             }
         }
+        // ****************************** FILTRADOOOOOOO ******************************
+
+        [HttpGet("api/getDataByName/{nomUsuario}/{idAgencia}/{fecha1}/{fecha2}")]
+        public IActionResult getDataByName(string nomUsuario, int idAgencia, DateTime fecha1, DateTime fecha2)
+        {
+            try
+            {
+                DateTime fecha1UTC = fecha1.ToUniversalTime();
+                DateTime fecha2UTC = fecha2.ToUniversalTime();
+                var usuario = _dbcontext.UserTickets
+                                .Where(p =>
+                                    p.IdUsuarioNavigation.NomUsuario == nomUsuario &&
+                                    p.IdUsuarioNavigation.IdAgencia == idAgencia &&
+                                    p.IdTicketNavigation.FechaHora.Value.Date >= fecha1UTC.Date &&
+                                    p.IdTicketNavigation.FechaHora.Value.Date <= fecha2UTC.Date)
+                                .GroupBy(a =>
+                                new
+                                {
+                                    a.IdUsuarioNavigation.CiUsuario,
+                                    a.IdUsuarioNavigation.NomUsuario,
+                                    a.IdUsuarioNavigation.ApePaterno,
+                                    a.IdUsuarioNavigation.ApeMaterno,
+                                    //a.IdTicketNavigation.FechaHora,
+                                    a.IdUsuarioNavigation.IdPerfil,
+                                    a.IdUsuarioNavigation.IdPerfilNavigation.NomTipoP,
+
+                                })
+
+                                .Select(t => new
+                                {
+
+                                    contEnEspera = t.Count(f => f.IdTicketNavigation.Estado == 1),
+                                    contLLamados = t.Count(f => f.IdTicketNavigation.Estado == 2),
+                                    contEnAtencion = t.Count(f => f.IdTicketNavigation.Estado == 3),
+                                    contNoSePresento = t.Count(f => f.IdTicketNavigation.Estado == 5),
+
+                                    cont = t.Count(),
+                                    contAtendidos = t.Count(f => f.IdTicketNavigation.Estado == 4),
+                                    contNoAtendidos = t.Count(f => f.IdTicketNavigation.Estado == 6),
+
+                                    data = t.Key,
+
+                                })
+                                .ToList();
+
+                return StatusCode(StatusCodes.Status200OK, new { mensaje = "success", response = usuario });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status422UnprocessableEntity, ex);
+            }
+        }
+        // ****************************** Filtrado por id prioridad ******************************
+
+        [HttpGet("api/getFilterUsers/{idPrioridad}/{fecha1}/{fecha2}")]
+        public IActionResult getDataByName(int idPrioridad, DateTime fecha1, DateTime fecha2)
+        {
+            try
+            {
+                DateTime fecha1UTC = fecha1.ToUniversalTime();
+                DateTime fecha2UTC = fecha2.ToUniversalTime();
+                var usuario = _dbcontext.Tickets
+                            .Where(p =>
+                                p.IdPrioridadNavigation.IdPrioridad == idPrioridad &&
+                                p.FechaHora.Value.Date >= fecha1UTC.Date &&
+                                p.FechaHora.Value.Date <= fecha2UTC.Date
+                            )
+                            .GroupBy(a =>
+                            new {
+                                a.IdTramiteNavigation.NomTramite,
+                                a.IdPrioridadNavigation.Tipo,
+                            })
+                            .Select(t => new
+                            {
+                                cont = t.Count(),
+                                contAtendidos = t.Count(f => f.Estado == 4),
+                                contNoAtendidos = t.Count(f => f.Estado == 6),
+                                data = t.Key,
+                            })
+                            .ToList();
+
+                var countTicketAll = _dbcontext.Tickets
+                        .Where(p =>
+                            p.IdPrioridadNavigation.IdPrioridad == idPrioridad &&
+                            p.FechaHora.Value.Date >= fecha1UTC.Date &&
+                            p.FechaHora.Value.Date <= fecha2UTC.Date
+                        )
+                        .GroupBy(a =>
+                        new {
+
+                            a.IdTramiteNavigation.NomTramite,
+                            a.IdPrioridadNavigation.Tipo,
+                        })
+                        .Select(t => new
+                        {
+                            cont = t.Count(),
+                            contAtendidos = t.Count(f => f.Estado == 4),
+                            contNoAtendidos = t.Count(f => f.Estado == 6),
+                            data = t.Key,
+                        })
+                        .ToList();
+                return StatusCode(StatusCodes.Status200OK, new { mensaje = "success", response = usuario, response2 = countTicketAll });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status422UnprocessableEntity, ex);
+            }
+        }
+
+        // ****************************** Listar Todos ******************************
+
+        [HttpGet("api/getListTodos/{idAgencia}")]
+        public IActionResult getDataByName(int idAgencia)
+        {
+            try
+            {
+
+                var usuario = _dbcontext.Tickets
+                        .Where(p =>
+                            p.IdAgenciaNavigation.IdAgencia == idAgencia
+                        )
+                        .GroupBy(a =>
+                        new {
+                            a.IdPrioridadNavigation.Tipo,
+                            a.IdTramiteNavigation.NomTramite,
+                        })
+                        .Select(t => new
+                        {
+                            contAtendidos = t.Count(f => f.Estado == 4),
+                            contNoAtendidos = t.Count(f => f.Estado == 6),
+                            cont = t.Count(),
+                            data = t.Key,
+                        })
+                        .ToList();
+
+
+                var countTicketTramite = _dbcontext.Tickets
+                   .Where(t =>
+                           t.IdAgenciaNavigation.IdAgencia == idAgencia
+                        )
+                       .GroupBy(t =>
+                           t.IdPrioridadNavigation.Tipo
+                       )
+                       .Select(t =>
+                           new
+                           {
+                               tipo = t.Key,
+                               datos = new
+                               {
+                                   contAtendidos = t.Count(f => f.Estado == 4),
+                                   contNoAtendidos = t.Count(f => f.Estado == 6),
+                                   cont = t.Count(),
+                               }
+                           }).ToList();
+
+                return StatusCode(StatusCodes.Status200OK, new { mensaje = "success", response = usuario, response2 = countTicketTramite });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status422UnprocessableEntity, ex);
+            }
+        }
     }
 }

@@ -611,8 +611,14 @@ namespace apiServices.Controllers
                          t.FechaHora.Value.Date >= fecha1UTC.Date &&
                          t.FechaHora.Value.Date <= fecha2UTC.Date
 
-                    ).GroupBy(
-                         a => a.IdTramite
+                         //a => a.IdTramite
+                    ).GroupBy(a =>
+                            new
+                            {
+                              a.IdTramite,
+                              a.IdTramiteNavigation.NomTramite
+                            }
+
                      )
                     .Select(t => new
                     {
@@ -623,6 +629,7 @@ namespace apiServices.Controllers
                         contAtendidos = t.Count(f => f.Estado == 4),
                         contNoSePresento = t.Count(f => f.Estado == 5),
                         contNoAtendidos = t.Count(f => f.Estado == 6),
+                        data = t.Key,
 
                     }
                     ).ToList();
@@ -632,13 +639,18 @@ namespace apiServices.Controllers
                             t.FechaHora.Value.Date <= fecha2UTC.Date &&
                             t.IdTramiteNavigation.IdTramite == IdTramite)
 
-                    .GroupBy(t => t.IdTramiteNavigation.NomTramite)
+                    .GroupBy(t =>
+                        t.IdTramiteNavigation.NomTramite
+                    )
 
                     .Select(t =>
                         new
                         {
-                            nomTramite = t.Key.ToString(),
+                            contEnEspera = t.Count(f => f.Estado == 1),
+                            contAtendidos = t.Count(f => f.Estado == 4),
+                            contNoAtendidos = t.Count(f => f.Estado == 6),
                             conteo = t.Count(),
+                            nomTramite = t.Key,
                         }
                        )
                      .ToList();
@@ -662,15 +674,13 @@ namespace apiServices.Controllers
                 var tickets = _dbcontext.Tickets
                     .Where(t =>    
                          t.IdAgenciaNavigation.IdAgencia == agencia 
-                         
-                  
+                   
                     ).GroupBy(a =>
                         new
                         {
                             a.IdTramite,
                             a.IdTramiteNavigation.NomTramite
                         }
-                     //a => a.IdTramite
                      )
                     .Select(t => new
                     {
@@ -681,12 +691,30 @@ namespace apiServices.Controllers
                         contAtendidos = t.Count(f => f.Estado == 4),
                         contNoSePresento = t.Count(f => f.Estado == 5),
                         contNoAtendidos = t.Count(f => f.Estado == 6),
-                        //nomTramite = t.IdTramiteNavigation.NomTramite
                         data = t.Key,
                     }
                     ).ToList();
 
-                return StatusCode(StatusCodes.Status200OK, new { mensaje = "success", response = tickets});
+                var countTicketTramite = _dbcontext.Tickets
+                    .Where(t =>
+                            t.IdAgenciaNavigation.IdAgencia == agencia
+                         )
+                        .GroupBy(t =>
+                            t.IdTramiteNavigation.NomTramite
+                        )
+                        .Select(t =>
+                        new
+                        {
+                            nomTramite = t.Key,
+                            datos = new
+                            {
+                                contEnEspera = t.Count(f => f.Estado == 1),
+                                contAtendidos = t.Count(f => f.Estado == 4),
+                                contNoAtendidos = t.Count(f => f.Estado == 6),
+                            }
+                        }).ToList();
+
+                return StatusCode(StatusCodes.Status200OK, new { mensaje = "success", response = tickets, response2 = countTicketTramite });
             }
             catch (Exception ex)
             {
